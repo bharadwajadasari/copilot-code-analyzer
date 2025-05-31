@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+    <id>com.copilotanalyzer.intellij</id>
+    <name>Copilot Code Analyzer</name>
+    <version>1.0.0</version>
+    <vendor email="support@copilotanalyzer.com" url="https://github.com/bharadwajadasari/copilot-code-analyzer">Copilot Analyzer</vendor>
+
+    <description><![CDATA[
+    Real-time analysis of AI-generated vs human-written code patterns.
+    Continuously monitors code changes and publishes metrics to external platforms for team analytics.
+    ]]></description>
+
+    <idea-version since-build="202"/>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <editorFactoryListener implementation="com.copilotanalyzer.intellij.listeners.CodeChangeListener"/>
+        <applicationConfigurable instance="com.copilotanalyzer.intellij.settings.PluginSettingsConfigurable"/>
+        <projectService serviceImplementation="com.copilotanalyzer.intellij.services.AnalysisService"/>
+        <notificationGroup id="Copilot Analyzer" displayType="BALLOON"/>
+    </extensions>
+
+    <actions>
+        <group id="CopilotAnalyzer.Menu" text="Copilot Analyzer">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <action id="CopilotAnalyzer.ToggleMonitoring" 
+                    class="com.copilotanalyzer.intellij.actions.ToggleMonitoringAction" 
+                    text="Toggle Code Monitoring"/>
+        </group>
+    </actions>
+</idea-plugin>

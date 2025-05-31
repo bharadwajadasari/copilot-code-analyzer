@@ -1,0 +1,43 @@
+{
+  "name": "copilot-analytics-platform",
+  "version": "1.0.0",
+  "description": "External analytics platform for Copilot Code Analysis events",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "migrate": "node src/database/migrate.js",
+    "seed": "node src/database/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.8.1",
+    "pg": "^8.11.1",
+    "jsonwebtoken": "^9.0.1",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.9.2",
+    "winston": "^3.9.0",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "analytics",
+    "copilot",
+    "code-analysis",
+    "metrics",
+    "dashboard"
+  ],
+  "author": "Copilot Analytics Team",
+  "license": "MIT"
+}
