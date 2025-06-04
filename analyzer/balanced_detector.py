@@ -128,8 +128,12 @@ class BalancedCopilotDetector:
             consistency_score * self.weights['consistency_bonus']
         )
         
-        # Apply human pattern penalty
-        final_confidence = max(0.0, base_confidence + (human_score * self.weights['human_penalty']))
+        # Apply human pattern penalty only when human patterns are very strong
+        human_penalty = 0
+        if human_score > 0.85:  # Only penalize when human patterns are overwhelming
+            human_penalty = (human_score - 0.85) * self.weights['human_penalty']
+        
+        final_confidence = max(0.0, base_confidence + human_penalty)
         
         # Apply realistic thresholds
         final_confidence = self._apply_realistic_thresholds(final_confidence, total_lines)
@@ -138,7 +142,7 @@ class BalancedCopilotDetector:
         risk_level = self._calculate_balanced_risk(final_confidence, strong_score, moderate_score)
         
         # Estimated AI lines
-        estimated_ai_lines = int(total_lines * final_confidence) if final_confidence > 0.1 else 0
+        estimated_ai_lines = int(total_lines * final_confidence) if final_confidence > 0.05 else 0
         
         return {
             'confidence_score': final_confidence,
@@ -160,7 +164,7 @@ class BalancedCopilotDetector:
                 'consistency_score': consistency_score,
                 'human_patterns': human_score,
                 'base_confidence': base_confidence,
-                'human_penalty_applied': human_score * self.weights['human_penalty']
+                'human_penalty_applied': human_penalty
             },
             'analysis_explanation': self._generate_explanation(
                 final_confidence, strong_score, moderate_score, weak_score, human_score
