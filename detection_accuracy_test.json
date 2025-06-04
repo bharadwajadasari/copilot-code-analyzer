@@ -1,0 +1,149 @@
+{
+  "AI-Style Code": {
+    "confidence_score": 0.25183333333333335,
+    "estimated_lines": 9,
+    "total_analyzed_lines": 39,
+    "risk_level": "MINIMAL",
+    "language": "python",
+    "indicators": {
+      "explicit_ai_mentions": false,
+      "perfect_structure": false,
+      "consistent_naming": false,
+      "ai_complexity_patterns": false,
+      "high_syntax_quality": true
+    },
+    "detailed_scores": {
+      "explicit_indicators": 0.0,
+      "structural_patterns": 0.0,
+      "naming_consistency": 0.4166666666666667,
+      "complexity_patterns": 0.04,
+      "syntax_quality": 0.8333333333333333
+    },
+    "statistical_analysis": {
+      "avg_line_length": 38.84615384615385,
+      "line_length_variance": 22.69771430822526,
+      "indentation_consistency": 1.0,
+      "unique_token_ratio": 0.42948717948717946,
+      "most_common_tokens": [
+        [
+          "user",
+          16
+        ],
+        [
+          "metrics",
+          6
+        ],
+        [
+          "dict",
+          5
+        ],
+        [
+          "str",
+          5
+        ],
+        [
+          "data",
+          5
+        ]
+      ]
+    }
+  },
+  "Human-Style Code": {
+    "confidence_score": 0.20208333333333334,
+    "estimated_lines": 5,
+    "total_analyzed_lines": 29,
+    "risk_level": "MINIMAL",
+    "language": "python",
+    "indicators": {
+      "explicit_ai_mentions": false,
+      "perfect_structure": false,
+      "consistent_naming": false,
+      "ai_complexity_patterns": false,
+      "high_syntax_quality": true
+    },
+    "detailed_scores": {
+      "explicit_indicators": 0.0,
+      "structural_patterns": 0.0,
+      "naming_consistency": 0.125,
+      "complexity_patterns": 0.0,
+      "syntax_quality": 0.8333333333333333
+    },
+    "statistical_analysis": {
+      "avg_line_length": 26.93103448275862,
+      "line_length_variance": 17.012455593482002,
+      "indentation_consistency": 1.0,
+      "unique_token_ratio": 0.41237113402061853,
+      "most_common_tokens": [
+        [
+          "item",
+          7
+        ],
+        [
+          "active",
+          6
+        ],
+        [
+          "user",
+          5
+        ],
+        [
+          "cnt",
+          5
+        ],
+        [
+          "in",
+          5
+        ]
+      ]
+    }
+  },
+  "Mixed-Style Code": {
+    "confidence_score": 0.23750000000000002,
+    "estimated_lines": 7,
+    "total_analyzed_lines": 30,
+    "risk_level": "MINIMAL",
+    "language": "python",
+    "indicators": {
+      "explicit_ai_mentions": false,
+      "perfect_structure": false,
+      "consistent_naming": false,
+      "ai_complexity_patterns": false,
+      "high_syntax_quality": true
+    },
+    "detailed_scores": {
+      "explicit_indicators": 0.0,
+      "structural_patterns": 0.0,
+      "naming_consistency": 0.25,
+      "complexity_patterns": 0.0,
+      "syntax_quality": 1.0
+    },
+    "statistical_analysis": {
+      "avg_line_length": 35,
+      "line_length_variance": 24.360793826599103,
+      "indentation_consistency": 1.0,
+      "unique_token_ratio": 0.52,
+      "most_common_tokens": [
+        [
+          "user",
+          7
+        ],
+        [
+          "0",
+          7
+        ],
+        [
+          "engagement_scores",
+          6
+        ],
+        [
+          "data",
+          4
+        ],
+        [
+          "if",
+          4
+        ]
+      ]
+    }
+  }
+}
