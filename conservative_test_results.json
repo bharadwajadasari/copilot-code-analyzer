@@ -1,0 +1,1651 @@
+{
+  "repository_path": "/home/runner/workspace",
+  "timestamp": "2025-06-04T15:47:17.949076",
+  "files": {
+    "main.py": {
+      "file_path": "/home/runner/workspace/main.py",
+      "language": "Python",
+      "file_size": 8474,
+      "total_lines": 237,
+      "code_lines": 187,
+      "comment_lines": 9,
+      "blank_lines": 41,
+      "last_modified": "2025-05-31T15:56:18.345167",
+      "file_hash": "894e19e3592b5b064319d48f4e885ba9",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 196,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 187,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/metrics_calculator.py": {
+      "file_path": "/home/runner/workspace/analyzer/metrics_calculator.py",
+      "language": "Python",
+      "file_size": 12614,
+      "total_lines": 300,
+      "code_lines": 234,
+      "comment_lines": 17,
+      "blank_lines": 49,
+      "last_modified": "2025-05-31T15:58:18.053157",
+      "file_hash": "d4e8a225077163b30b81f6c23af0f208",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 251,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 234,
+      "copilot_confidence": 0.0
+    },
+    "upload_to_github.py": {
+      "file_path": "/home/runner/workspace/upload_to_github.py",
+      "language": "Python",
+      "file_size": 3752,
+      "total_lines": 110,
+      "code_lines": 81,
+      "comment_lines": 9,
+      "blank_lines": 20,
+      "last_modified": "2025-06-04T15:17:14.103487",
+      "file_hash": "8980996077e2ce4b1456eff48494e5a8",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 90,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 81,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/copilot_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/copilot_detector.py",
+      "language": "Python",
+      "file_size": 12763,
+      "total_lines": 310,
+      "code_lines": 240,
+      "comment_lines": 21,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T04:26:31.514674",
+      "file_hash": "7fc60613dfabd90e75da0741f040e27a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 261,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 240,
+      "copilot_confidence": 0.0
+    },
+    "test_detection_accuracy.py": {
+      "file_path": "/home/runner/workspace/test_detection_accuracy.py",
+      "language": "Python",
+      "file_size": 6354,
+      "total_lines": 209,
+      "code_lines": 156,
+      "comment_lines": 11,
+      "blank_lines": 42,
+      "last_modified": "2025-06-04T04:29:30.917305",
+      "file_hash": "320dbe5d7393c406c372d3f66983216a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 167,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 156,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/enhanced_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/enhanced_detector.py",
+      "language": "Python",
+      "file_size": 21682,
+      "total_lines": 536,
+      "code_lines": 400,
+      "comment_lines": 39,
+      "blank_lines": 97,
+      "last_modified": "2025-06-04T04:28:21.803447",
+      "file_hash": "2fbb7ef0e01f3c0542a4ca5d52c72efa",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 439,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 400,
+      "copilot_confidence": 0.0
+    },
+    "monitoring/file_watcher.py": {
+      "file_path": "/home/runner/workspace/monitoring/file_watcher.py",
+      "language": "Python",
+      "file_size": 10346,
+      "total_lines": 278,
+      "code_lines": 208,
+      "comment_lines": 15,
+      "blank_lines": 55,
+      "last_modified": "2025-05-31T16:06:32.406115",
+      "file_hash": "4550e590f48f7d562dcbeacce6d5067a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 223,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 208,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/conservative_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/conservative_detector.py",
+      "language": "Python",
+      "file_size": 8403,
+      "total_lines": 203,
+      "code_lines": 158,
+      "comment_lines": 13,
+      "blank_lines": 32,
+      "last_modified": "2025-06-04T15:46:58.029996",
+      "file_hash": "bbf684cd939c60628941ea5205029ba1",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 171,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 158,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/code_analyzer.py": {
+      "file_path": "/home/runner/workspace/analyzer/code_analyzer.py",
+      "language": "Python",
+      "file_size": 9055,
+      "total_lines": 232,
+      "code_lines": 176,
+      "comment_lines": 16,
+      "blank_lines": 40,
+      "last_modified": "2025-06-04T15:47:10.469979",
+      "file_hash": "b67c11451acb46f01dc20b112c69dfae",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 192,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 176,
+      "copilot_confidence": 0.0
+    },
+    "api/external_client.py": {
+      "file_path": "/home/runner/workspace/api/external_client.py",
+      "language": "Python",
+      "file_size": 10683,
+      "total_lines": 283,
+      "code_lines": 223,
+      "comment_lines": 9,
+      "blank_lines": 51,
+      "last_modified": "2025-05-31T16:05:53.879119",
+      "file_hash": "5ef26333b3d2f0a2022fb2b63ff91874",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 232,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 223,
+      "copilot_confidence": 0.0
+    },
+    "storage/data_manager.py": {
+      "file_path": "/home/runner/workspace/storage/data_manager.py",
+      "language": "Python",
+      "file_size": 19415,
+      "total_lines": 489,
+      "code_lines": 394,
+      "comment_lines": 20,
+      "blank_lines": 75,
+      "last_modified": "2025-05-31T16:00:14.120148",
+      "file_hash": "b18a6a04d2e80fce6e4ea06b4ea3608b",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 414,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 394,
+      "copilot_confidence": 0.0
+    },
+    "dashboard/server.py": {
+      "file_path": "/home/runner/workspace/dashboard/server.py",
+      "language": "Python",
+      "file_size": 12788,
+      "total_lines": 306,
+      "code_lines": 252,
+      "comment_lines": 7,
+      "blank_lines": 47,
+      "last_modified": "2025-05-31T16:06:55.387112",
+      "file_hash": "96cd4a02e71c3f803eb5ef300dece527",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 259,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 252,
+      "copilot_confidence": 0.0
+    },
+    "dashboard/static/script.js": {
+      "file_path": "/home/runner/workspace/dashboard/static/script.js",
+      "language": "JavaScript",
+      "file_size": 24848,
+      "total_lines": 676,
+      "code_lines": 584,
+      "comment_lines": 19,
+      "blank_lines": 73,
+      "last_modified": "2025-05-31T16:03:28.104131",
+      "file_hash": "3f211940946ab5f65081ff8bb32b871e",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 603,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 584,
+      "copilot_confidence": 0.0
+    },
+    "utils/logger.py": {
+      "file_path": "/home/runner/workspace/utils/logger.py",
+      "language": "Python",
+      "file_size": 9191,
+      "total_lines": 276,
+      "code_lines": 199,
+      "comment_lines": 18,
+      "blank_lines": 59,
+      "last_modified": "2025-05-31T16:04:00.449129",
+      "file_hash": "b2800dcbc9874417a7af5f9c3e832939",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 217,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 199,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/server.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/server.js",
+      "language": "JavaScript",
+      "file_size": 4173,
+      "total_lines": 136,
+      "code_lines": 110,
+      "comment_lines": 7,
+      "blank_lines": 19,
+      "last_modified": "2025-05-31T17:31:08.307693",
+      "file_hash": "592556c178d5835d6d33dc11f5cfb90f",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 117,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 110,
+      "copilot_confidence": 0.0
+    },
+    "utils/helpers.py": {
+      "file_path": "/home/runner/workspace/utils/helpers.py",
+      "language": "Python",
+      "file_size": 18777,
+      "total_lines": 622,
+      "code_lines": 451,
+      "comment_lines": 33,
+      "blank_lines": 138,
+      "last_modified": "2025-05-31T16:05:05.413123",
+      "file_hash": "86ddfec4633b721249e018ea91bf957f",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 484,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 451,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/server.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/server.js",
+      "language": "JavaScript",
+      "file_size": 2778,
+      "total_lines": 113,
+      "code_lines": 83,
+      "comment_lines": 12,
+      "blank_lines": 18,
+      "last_modified": "2025-05-31T17:29:59.418698",
+      "file_hash": "0c9e6f77002b4fe564599698527b5d7b",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 95,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 83,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/events.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/events.js",
+      "language": "JavaScript",
+      "file_size": 4725,
+      "total_lines": 176,
+      "code_lines": 141,
+      "comment_lines": 9,
+      "blank_lines": 26,
+      "last_modified": "2025-05-31T17:26:13.237715",
+      "file_hash": "b59cc56db1c1541c9c5723f54ccaac6c",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 150,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 141,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/analytics.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/analytics.js",
+      "language": "JavaScript",
+      "file_size": 2797,
+      "total_lines": 83,
+      "code_lines": 61,
+      "comment_lines": 5,
+      "blank_lines": 17,
+      "last_modified": "2025-05-31T17:26:48.132712",
+      "file_hash": "b5c77edbec946bc6f61348a71375e1e7",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 66,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 61,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/auth.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/auth.js",
+      "language": "JavaScript",
+      "file_size": 3883,
+      "total_lines": 138,
+      "code_lines": 108,
+      "comment_lines": 7,
+      "blank_lines": 23,
+      "last_modified": "2025-05-31T17:28:07.110706",
+      "file_hash": "fddf2eb8550705e7372936f20c8148cd",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 115,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 108,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/dashboard.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/dashboard.js",
+      "language": "JavaScript",
+      "file_size": 1757,
+      "total_lines": 53,
+      "code_lines": 41,
+      "comment_lines": 2,
+      "blank_lines": 10,
+      "last_modified": "2025-05-31T17:28:15.405706",
+      "file_hash": "b9ec86f12f274b1d74d2de3fb85e30b9",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 43,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 41,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/reports.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/reports.js",
+      "language": "JavaScript",
+      "file_size": 3555,
+      "total_lines": 94,
+      "code_lines": 78,
+      "comment_lines": 2,
+      "blank_lines": 14,
+      "last_modified": "2025-05-31T17:28:27.274705",
+      "file_hash": "cec28cc9084747f41077ed3a8fbea883",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 80,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 78,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/services/eventService.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/services/eventService.js",
+      "language": "JavaScript",
+      "file_size": 8036,
+      "total_lines": 271,
+      "code_lines": 219,
+      "comment_lines": 10,
+      "blank_lines": 42,
+      "last_modified": "2025-05-31T17:26:38.006713",
+      "file_hash": "e48fe5070b50063522ef9f8efd1a41b8",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 229,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 219,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/middleware/auth.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/middleware/auth.js",
+      "language": "JavaScript",
+      "file_size": 1472,
+      "total_lines": 52,
+      "code_lines": 39,
+      "comment_lines": 2,
+      "blank_lines": 11,
+      "last_modified": "2025-05-31T17:27:29.645709",
+      "file_hash": "8905fe6bc45620a0b310df62bb636668",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 41,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 39,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/services/analyticsService.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/services/analyticsService.js",
+      "language": "JavaScript",
+      "file_size": 8590,
+      "total_lines": 238,
+      "code_lines": 216,
+      "comment_lines": 0,
+      "blank_lines": 22,
+      "last_modified": "2025-05-31T17:27:14.486710",
+      "file_hash": "35c51ff6c3dcda62d4b336314249f937",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 216,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 216,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/middleware/errorHandler.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/middleware/errorHandler.js",
+      "language": "JavaScript",
+      "file_size": 831,
+      "total_lines": 35,
+      "code_lines": 28,
+      "comment_lines": 2,
+      "blank_lines": 5,
+      "last_modified": "2025-05-31T17:27:51.635708",
+      "file_hash": "8007af3458ea37ac362dd7c4b38f9d94",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 30,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 28,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/database/migrate.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/database/migrate.js",
+      "language": "JavaScript",
+      "file_size": 5104,
+      "total_lines": 166,
+      "code_lines": 134,
+      "comment_lines": 12,
+      "blank_lines": 20,
+      "last_modified": "2025-05-31T17:25:58.252716",
+      "file_hash": "a8bff3e457432870795bb9f0ad47354a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 146,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 134,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/utils/logger.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/utils/logger.js",
+      "language": "JavaScript",
+      "file_size": 643,
+      "total_lines": 23,
+      "code_lines": 20,
+      "comment_lines": 0,
+      "blank_lines": 3,
+      "last_modified": "2025-05-31T17:27:45.936708",
+      "file_hash": "b39a95f5946a1941ea82e62e4fea82f4",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 20,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 20,
+      "copilot_confidence": 0.0
+    },
+    "test_files/ai_style.py": {
+      "file_path": "/home/runner/workspace/test_files/ai_style.py",
+      "language": "Python",
+      "file_size": 1608,
+      "total_lines": 50,
+      "code_lines": 39,
+      "comment_lines": 0,
+      "blank_lines": 11,
+      "last_modified": "2025-06-04T04:29:35.745295",
+      "file_hash": "e5ddaa0c128a4f03b1adc62692e864be",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 39,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 39,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/config/database.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/config/database.js",
+      "language": "JavaScript",
+      "file_size": 282,
+      "total_lines": 11,
+      "code_lines": 9,
+      "comment_lines": 0,
+      "blank_lines": 2,
+      "last_modified": "2025-05-31T17:29:36.565700",
+      "file_hash": "aa29554fbdbb24707759c207a82fe1a5",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 9,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 9,
+      "copilot_confidence": 0.0
+    },
+    "test_files/human_style.py": {
+      "file_path": "/home/runner/workspace/test_files/human_style.py",
+      "language": "Python",
+      "file_size": 818,
+      "total_lines": 34,
+      "code_lines": 25,
+      "comment_lines": 4,
+      "blank_lines": 5,
+      "last_modified": "2025-06-04T04:29:35.748295",
+      "file_hash": "5da3834255a0235f2cdbd2e4d8e9a931",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 29,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 25,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_detection_accuracy.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_detection_accuracy.py",
+      "language": "Python",
+      "file_size": 6354,
+      "total_lines": 209,
+      "code_lines": 156,
+      "comment_lines": 11,
+      "blank_lines": 42,
+      "last_modified": "2025-06-04T05:02:07.024279",
+      "file_hash": "320dbe5d7393c406c372d3f66983216a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 167,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 156,
+      "copilot_confidence": 0.0
+    },
+    "test_files/mixed_style.py": {
+      "file_path": "/home/runner/workspace/test_files/mixed_style.py",
+      "language": "Python",
+      "file_size": 1115,
+      "total_lines": 38,
+      "code_lines": 29,
+      "comment_lines": 1,
+      "blank_lines": 8,
+      "last_modified": "2025-06-04T04:29:35.749295",
+      "file_hash": "f559a4a474015372481babbb9b1f8224",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 30,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 29,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/main.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/main.py",
+      "language": "Python",
+      "file_size": 8474,
+      "total_lines": 237,
+      "code_lines": 187,
+      "comment_lines": 9,
+      "blank_lines": 41,
+      "last_modified": "2025-06-04T05:02:07.028279",
+      "file_hash": "894e19e3592b5b064319d48f4e885ba9",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 196,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 187,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/analyzer/metrics_calculator.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/metrics_calculator.py",
+      "language": "Python",
+      "file_size": 12614,
+      "total_lines": 300,
+      "code_lines": 234,
+      "comment_lines": 17,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T05:02:07.019279",
+      "file_hash": "d4e8a225077163b30b81f6c23af0f208",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 251,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 234,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/analyzer/copilot_detector.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/copilot_detector.py",
+      "language": "Python",
+      "file_size": 12763,
+      "total_lines": 310,
+      "code_lines": 240,
+      "comment_lines": 21,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T05:02:07.022279",
+      "file_hash": "7fc60613dfabd90e75da0741f040e27a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 261,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 240,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/analyzer/enhanced_detector.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/enhanced_detector.py",
+      "language": "Python",
+      "file_size": 21682,
+      "total_lines": 536,
+      "code_lines": 400,
+      "comment_lines": 39,
+      "blank_lines": 97,
+      "last_modified": "2025-06-04T05:02:07.023279",
+      "file_hash": "2fbb7ef0e01f3c0542a4ca5d52c72efa",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 439,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 400,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/analyzer/code_analyzer.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/code_analyzer.py",
+      "language": "Python",
+      "file_size": 9043,
+      "total_lines": 232,
+      "code_lines": 176,
+      "comment_lines": 16,
+      "blank_lines": 40,
+      "last_modified": "2025-06-04T05:02:07.023279",
+      "file_hash": "0025ccb04fcaa0a502df6bc996c9f2d0",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 192,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 176,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_files/ai_style.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_files/ai_style.py",
+      "language": "Python",
+      "file_size": 1608,
+      "total_lines": 50,
+      "code_lines": 39,
+      "comment_lines": 0,
+      "blank_lines": 11,
+      "last_modified": "2025-06-04T05:02:07.025279",
+      "file_hash": "e5ddaa0c128a4f03b1adc62692e864be",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 39,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 39,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_files/human_style.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_files/human_style.py",
+      "language": "Python",
+      "file_size": 818,
+      "total_lines": 34,
+      "code_lines": 25,
+      "comment_lines": 4,
+      "blank_lines": 5,
+      "last_modified": "2025-06-04T05:02:07.025279",
+      "file_hash": "5da3834255a0235f2cdbd2e4d8e9a931",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 29,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 25,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_files/mixed_style.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_files/mixed_style.py",
+      "language": "Python",
+      "file_size": 1115,
+      "total_lines": 38,
+      "code_lines": 29,
+      "comment_lines": 1,
+      "blank_lines": 8,
+      "last_modified": "2025-06-04T05:02:07.026279",
+      "file_hash": "f559a4a474015372481babbb9b1f8224",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 30,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_markers": false,
+          "ai_signatures_detected": false,
+          "high_confidence_ai": false,
+          "moderate_confidence_ai": false,
+          "low_confidence_ai": false
+        },
+        "detailed_scores": {
+          "explicit_markers": 0,
+          "signature_matches": 0,
+          "total_markers_found": 0,
+          "confidence_from_markers": 0.0,
+          "confidence_from_signatures": 0.0
+        },
+        "analysis_notes": [
+          "Appears to be primarily human-written code",
+          "No clear AI generation markers found"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 29,
+      "copilot_confidence": 0.0
+    }
+  },
+  "summary": {
+    "total_files": 41,
+    "total_lines": 8724,
+    "total_code_lines": 6809,
+    "copilot_lines": 0,
+    "human_lines": 6809,
+    "copilot_percentage": 0.0,
+    "human_percentage": 100.0,
+    "average_confidence": 0.0,
+    "high_confidence_files": 0,
+    "high_confidence_percentage": 0.0,
+    "file_size_stats": {
+      "min": 9,
+      "max": 584,
+      "mean": 166.0731707317073,
+      "median": 156
+    }
+  },
+  "language_breakdown": {
+    "Python": {
+      "files": 26,
+      "total_lines": 6459,
+      "code_lines": 4938,
+      "copilot_lines": 0,
+      "human_lines": 4938,
+      "copilot_percentage": 0.0,
+      "human_percentage": 100.0,
+      "average_confidence": 0.0
+    },
+    "JavaScript": {
+      "files": 15,
+      "total_lines": 2265,
+      "code_lines": 1871,
+      "copilot_lines": 0,
+      "human_lines": 1871,
+      "copilot_percentage": 0.0,
+      "human_percentage": 100.0,
+      "average_confidence": 0.0
+    }
+  },
+  "git_info": {
+    "current_branch": "main",
+    "last_commit": "d68624e7",
+    "last_commit_date": "2025-06-04T15:17:38+00:00",
+    "total_commits": 24
+  }
+}
