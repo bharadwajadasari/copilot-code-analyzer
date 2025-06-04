@@ -14,7 +14,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from git import Repo, InvalidGitRepositoryError
 from utils.logger import setup_logger
-from .conservative_detector import ConservativeCopilotDetector
+from .balanced_detector import BalancedCopilotDetector
 from .metrics_calculator import MetricsCalculator
 
 logger = setup_logger(__name__)
@@ -22,7 +22,7 @@ logger = setup_logger(__name__)
 class CodeAnalyzer:
     def __init__(self, config: Dict[str, Any]):
         self.config = config
-        self.copilot_detector = ConservativeCopilotDetector(config['analysis']['copilot_indicators'])
+        self.copilot_detector = BalancedCopilotDetector(config['analysis']['copilot_indicators'])
         self.metrics_calculator = MetricsCalculator()
         self.supported_extensions = set(config['analysis']['supported_extensions'])
         self.ignore_patterns = config['analysis']['ignore_patterns']
