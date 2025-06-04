@@ -1,0 +1,1690 @@
+{
+  "repository_path": "/home/runner/workspace",
+  "timestamp": "2025-06-04T04:29:00.167412",
+  "files": {
+    "main.py": {
+      "file_path": "/home/runner/workspace/main.py",
+      "language": "Python",
+      "file_size": 8474,
+      "total_lines": 237,
+      "code_lines": 187,
+      "comment_lines": 9,
+      "blank_lines": 41,
+      "last_modified": "2025-05-31T15:56:18.345167",
+      "file_hash": "894e19e3592b5b064319d48f4e885ba9",
+      "copilot_analysis": {
+        "confidence_score": 0.6158788939761198,
+        "estimated_lines": 120,
+        "total_analyzed_lines": 196,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 1.0,
+          "structural_patterns": 0.16666666666666666,
+          "naming_consistency": 0.1276595744680851,
+          "complexity_patterns": 0.03375527426160337,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 41.295918367346935,
+          "line_length_variance": 23.242405623176708,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.2923777019340159,
+          "most_common_tokens": [
+            [
+              "click",
+              42
+            ],
+            [
+              "config",
+              29
+            ],
+            [
+              "echo",
+              29
+            ],
+            [
+              "f",
+              26
+            ],
+            [
+              "repository",
+              22
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 120,
+      "estimated_human_lines": 67,
+      "copilot_confidence": 0.6158788939761198
+    },
+    "analyzer/metrics_calculator.py": {
+      "file_path": "/home/runner/workspace/analyzer/metrics_calculator.py",
+      "language": "Python",
+      "file_size": 12614,
+      "total_lines": 300,
+      "code_lines": 234,
+      "comment_lines": 17,
+      "blank_lines": 49,
+      "last_modified": "2025-05-31T15:58:18.053157",
+      "file_hash": "d4e8a225077163b30b81f6c23af0f208",
+      "copilot_analysis": {
+        "confidence_score": 0.56625,
+        "estimated_lines": 142,
+        "total_analyzed_lines": 251,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.9,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.3416666666666667,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 47.77290836653386,
+          "line_length_variance": 26.19710333429194,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.21001926782273603,
+          "most_common_tokens": [
+            [
+              "0",
+              88
+            ],
+            [
+              "file_data",
+              37
+            ],
+            [
+              "get",
+              37
+            ],
+            [
+              "values",
+              29
+            ],
+            [
+              "return",
+              24
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 142,
+      "estimated_human_lines": 92,
+      "copilot_confidence": 0.56625
+    },
+    "analyzer/copilot_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/copilot_detector.py",
+      "language": "Python",
+      "file_size": 12763,
+      "total_lines": 310,
+      "code_lines": 240,
+      "comment_lines": 21,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T04:26:31.514674",
+      "file_hash": "7fc60613dfabd90e75da0741f040e27a",
+      "copilot_analysis": {
+        "confidence_score": 0.6115395894428153,
+        "estimated_lines": 159,
+        "total_analyzed_lines": 261,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 1.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.39090909090909093,
+          "complexity_patterns": 0.01935483870967742,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 46.39846743295019,
+          "line_length_variance": 22.488164356028328,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.26869565217391306,
+          "most_common_tokens": [
+            [
+              "0",
+              56
+            ],
+            [
+              "s",
+              52
+            ],
+            [
+              "content",
+              48
+            ],
+            [
+              "r",
+              34
+            ],
+            [
+              "self",
+              30
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 159,
+      "estimated_human_lines": 81,
+      "copilot_confidence": 0.6115395894428153
+    },
+    "analyzer/enhanced_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/enhanced_detector.py",
+      "language": "Python",
+      "file_size": 21682,
+      "total_lines": 536,
+      "code_lines": 400,
+      "comment_lines": 39,
+      "blank_lines": 97,
+      "last_modified": "2025-06-04T04:28:21.803447",
+      "file_hash": "2fbb7ef0e01f3c0542a4ca5d52c72efa",
+      "copilot_analysis": {
+        "confidence_score": 0.5006259027443428,
+        "estimated_lines": 219,
+        "total_analyzed_lines": 439,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 1.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.3225806451612903,
+          "complexity_patterns": 0.014925373134328358,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 46.62186788154897,
+          "line_length_variance": 21.495525183064192,
+          "indentation_consistency": 0.5369287652619863,
+          "unique_token_ratio": 0.22473604826546004,
+          "most_common_tokens": [
+            [
+              "0",
+              105
+            ],
+            [
+              "s",
+              75
+            ],
+            [
+              "self",
+              66
+            ],
+            [
+              "r",
+              49
+            ],
+            [
+              "if",
+              49
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 219,
+      "estimated_human_lines": 181,
+      "copilot_confidence": 0.5006259027443428
+    },
+    "monitoring/file_watcher.py": {
+      "file_path": "/home/runner/workspace/monitoring/file_watcher.py",
+      "language": "Python",
+      "file_size": 10346,
+      "total_lines": 278,
+      "code_lines": 208,
+      "comment_lines": 15,
+      "blank_lines": 55,
+      "last_modified": "2025-05-31T16:06:32.406115",
+      "file_hash": "4550e590f48f7d562dcbeacce6d5067a",
+      "copilot_analysis": {
+        "confidence_score": 0.2398936170212766,
+        "estimated_lines": 53,
+        "total_analyzed_lines": 223,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.26595744680851063,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 43.48430493273543,
+          "line_length_variance": 21.71453773285635,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.24703344120819848,
+          "most_common_tokens": [
+            [
+              "self",
+              103
+            ],
+            [
+              "file_path",
+              27
+            ],
+            [
+              "file",
+              23
+            ],
+            [
+              "logger",
+              20
+            ],
+            [
+              "str",
+              19
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 53,
+      "estimated_human_lines": 155,
+      "copilot_confidence": 0.2398936170212766
+    },
+    "api/external_client.py": {
+      "file_path": "/home/runner/workspace/api/external_client.py",
+      "language": "Python",
+      "file_size": 10683,
+      "total_lines": 283,
+      "code_lines": 223,
+      "comment_lines": 9,
+      "blank_lines": 51,
+      "last_modified": "2025-05-31T16:05:53.879119",
+      "file_hash": "5ef26333b3d2f0a2022fb2b63ff91874",
+      "copilot_analysis": {
+        "confidence_score": 0.22354871277132762,
+        "estimated_lines": 51,
+        "total_analyzed_lines": 232,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.14285714285714285,
+          "complexity_patterns": 0.014134275618374558,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 43.09051724137931,
+          "line_length_variance": 20.968240170200247,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.2556053811659193,
+          "most_common_tokens": [
+            [
+              "self",
+              54
+            ],
+            [
+              "response",
+              24
+            ],
+            [
+              "get",
+              23
+            ],
+            [
+              "endpoint",
+              21
+            ],
+            [
+              "return",
+              20
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 51,
+      "estimated_human_lines": 172,
+      "copilot_confidence": 0.22354871277132762
+    },
+    "analyzer/code_analyzer.py": {
+      "file_path": "/home/runner/workspace/analyzer/code_analyzer.py",
+      "language": "Python",
+      "file_size": 9043,
+      "total_lines": 232,
+      "code_lines": 176,
+      "comment_lines": 16,
+      "blank_lines": 40,
+      "last_modified": "2025-06-04T04:28:39.770410",
+      "file_hash": "0025ccb04fcaa0a502df6bc996c9f2d0",
+      "copilot_analysis": {
+        "confidence_score": 0.5731135902636917,
+        "estimated_lines": 110,
+        "total_analyzed_lines": 192,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.9,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.35294117647058826,
+          "complexity_patterns": 0.034482758620689655,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 44.3125,
+          "line_length_variance": 22.525523626759178,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.34469200524246396,
+          "most_common_tokens": [
+            [
+              "file_path",
+              29
+            ],
+            [
+              "self",
+              26
+            ],
+            [
+              "if",
+              16
+            ],
+            [
+              "str",
+              15
+            ],
+            [
+              "file",
+              14
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 110,
+      "estimated_human_lines": 66,
+      "copilot_confidence": 0.5731135902636917
+    },
+    "storage/data_manager.py": {
+      "file_path": "/home/runner/workspace/storage/data_manager.py",
+      "language": "Python",
+      "file_size": 19415,
+      "total_lines": 489,
+      "code_lines": 394,
+      "comment_lines": 20,
+      "blank_lines": 75,
+      "last_modified": "2025-05-31T16:00:14.120148",
+      "file_hash": "b18a6a04d2e80fce6e4ea06b4ea3608b",
+      "copilot_analysis": {
+        "confidence_score": 0.1272727272727273,
+        "estimated_lines": 52,
+        "total_analyzed_lines": 414,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.18181818181818182,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 43.55314009661836,
+          "line_length_variance": 20.131308114156543,
+          "indentation_consistency": 0.0,
+          "unique_token_ratio": 0.17651098901098902,
+          "most_common_tokens": [
+            [
+              "conn",
+              58
+            ],
+            [
+              "self",
+              51
+            ],
+            [
+              "timestamp",
+              34
+            ],
+            [
+              "repository_path",
+              29
+            ],
+            [
+              "str",
+              26
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 52,
+      "estimated_human_lines": 342,
+      "copilot_confidence": 0.1272727272727273
+    },
+    "dashboard/static/script.js": {
+      "file_path": "/home/runner/workspace/dashboard/static/script.js",
+      "language": "JavaScript",
+      "file_size": 24848,
+      "total_lines": 676,
+      "code_lines": 584,
+      "comment_lines": 19,
+      "blank_lines": 73,
+      "last_modified": "2025-05-31T16:03:28.104131",
+      "file_hash": "3f211940946ab5f65081ff8bb32b871e",
+      "copilot_analysis": {
+        "confidence_score": 0.10384431393329212,
+        "estimated_lines": 62,
+        "total_analyzed_lines": 603,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.2,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.01775147928994083,
+          "syntax_quality": 0.5118159203980099
+        },
+        "statistical_analysis": {
+          "avg_line_length": 39.291873963515755,
+          "line_length_variance": 24.30579788721725,
+          "indentation_consistency": 0.0,
+          "unique_token_ratio": 0.2200557103064067,
+          "most_common_tokens": [
+            [
+              "this",
+              89
+            ],
+            [
+              "td",
+              64
+            ],
+            [
+              "div",
+              60
+            ],
+            [
+              "class",
+              49
+            ],
+            [
+              "const",
+              42
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 62,
+      "estimated_human_lines": 522,
+      "copilot_confidence": 0.10384431393329212
+    },
+    "dashboard/server.py": {
+      "file_path": "/home/runner/workspace/dashboard/server.py",
+      "language": "Python",
+      "file_size": 12788,
+      "total_lines": 306,
+      "code_lines": 252,
+      "comment_lines": 7,
+      "blank_lines": 47,
+      "last_modified": "2025-05-31T16:06:55.387112",
+      "file_hash": "96cd4a02e71c3f803eb5ef300dece527",
+      "copilot_analysis": {
+        "confidence_score": 0.5371760443307758,
+        "estimated_lines": 139,
+        "total_analyzed_lines": 259,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.9,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.14130434782608695,
+          "complexity_patterns": 0.006535947712418301,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 46.12741312741313,
+          "line_length_variance": 21.84891704044601,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.22637362637362637,
+          "most_common_tokens": [
+            [
+              "get",
+              41
+            ],
+            [
+              "self",
+              34
+            ],
+            [
+              "error",
+              31
+            ],
+            [
+              "e",
+              24
+            ],
+            [
+              "0",
+              23
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 139,
+      "estimated_human_lines": 113,
+      "copilot_confidence": 0.5371760443307758
+    },
+    "utils/logger.py": {
+      "file_path": "/home/runner/workspace/utils/logger.py",
+      "language": "Python",
+      "file_size": 9191,
+      "total_lines": 276,
+      "code_lines": 199,
+      "comment_lines": 18,
+      "blank_lines": 59,
+      "last_modified": "2025-05-31T16:04:00.449129",
+      "file_hash": "b2800dcbc9874417a7af5f9c3e832939",
+      "copilot_analysis": {
+        "confidence_score": 0.32437106918238995,
+        "estimated_lines": 70,
+        "total_analyzed_lines": 217,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.3333333333333333,
+          "naming_consistency": 0.27358490566037735,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 40.14746543778802,
+          "line_length_variance": 21.94028945608111,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.28820960698689957,
+          "most_common_tokens": [
+            [
+              "self",
+              52
+            ],
+            [
+              "logging",
+              35
+            ],
+            [
+              "logger",
+              34
+            ],
+            [
+              "def",
+              26
+            ],
+            [
+              "str",
+              20
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 70,
+      "estimated_human_lines": 129,
+      "copilot_confidence": 0.32437106918238995
+    },
+    "utils/helpers.py": {
+      "file_path": "/home/runner/workspace/utils/helpers.py",
+      "language": "Python",
+      "file_size": 18777,
+      "total_lines": 622,
+      "code_lines": 451,
+      "comment_lines": 33,
+      "blank_lines": 138,
+      "last_modified": "2025-05-31T16:05:05.413123",
+      "file_hash": "86ddfec4633b721249e018ea91bf957f",
+      "copilot_analysis": {
+        "confidence_score": 0.6264084271168274,
+        "estimated_lines": 303,
+        "total_analyzed_lines": 484,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "explicit_ai_mentions": true,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": true
+        },
+        "detailed_scores": {
+          "explicit_indicators": 1.0,
+          "structural_patterns": 0.16666666666666666,
+          "naming_consistency": 0.21875,
+          "complexity_patterns": 0.012861736334405145,
+          "syntax_quality": 1.0
+        },
+        "statistical_analysis": {
+          "avg_line_length": 36.22314049586777,
+          "line_length_variance": 21.66782450289587,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.22804232804232805,
+          "most_common_tokens": [
+            [
+              "if",
+              71
+            ],
+            [
+              "path",
+              44
+            ],
+            [
+              "not",
+              39
+            ],
+            [
+              "configuration",
+              38
+            ],
+            [
+              "str",
+              36
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 303,
+      "estimated_human_lines": 148,
+      "copilot_confidence": 0.6264084271168274
+    },
+    "analytics-platform/server.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/server.js",
+      "language": "JavaScript",
+      "file_size": 4173,
+      "total_lines": 136,
+      "code_lines": 110,
+      "comment_lines": 7,
+      "blank_lines": 19,
+      "last_modified": "2025-05-31T17:31:08.307693",
+      "file_hash": "592556c178d5835d6d33dc11f5cfb90f",
+      "copilot_analysis": {
+        "confidence_score": 0.04387254901960784,
+        "estimated_lines": 5,
+        "total_analyzed_lines": 117,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.014705882352941176,
+          "syntax_quality": 0.41666666666666663
+        },
+        "statistical_analysis": {
+          "avg_line_length": 34.324786324786324,
+          "line_length_variance": 25.84764014434462,
+          "indentation_consistency": 0.3285373630201216,
+          "unique_token_ratio": 0.34966592427616927,
+          "most_common_tokens": [
+            [
+              "error",
+              20
+            ],
+            [
+              "const",
+              15
+            ],
+            [
+              "api",
+              13
+            ],
+            [
+              "res",
+              13
+            ],
+            [
+              "json",
+              12
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 5,
+      "estimated_human_lines": 105,
+      "copilot_confidence": 0.04387254901960784
+    },
+    "analytics-platform/src/server.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/server.js",
+      "language": "JavaScript",
+      "file_size": 2778,
+      "total_lines": 113,
+      "code_lines": 83,
+      "comment_lines": 12,
+      "blank_lines": 18,
+      "last_modified": "2025-05-31T17:29:59.418698",
+      "file_hash": "0c9e6f77002b4fe564599698527b5d7b",
+      "copilot_analysis": {
+        "confidence_score": 0.15186539357242665,
+        "estimated_lines": 14,
+        "total_analyzed_lines": 95,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.017699115044247787,
+          "syntax_quality": 0.4921052631578947
+        },
+        "statistical_analysis": {
+          "avg_line_length": 28.021052631578947,
+          "line_length_variance": 17.14020962865454,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.39090909090909093,
+          "most_common_tokens": [
+            [
+              "const",
+              17
+            ],
+            [
+              "app",
+              16
+            ],
+            [
+              "require",
+              12
+            ],
+            [
+              "use",
+              12
+            ],
+            [
+              "socket",
+              9
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 14,
+      "estimated_human_lines": 69,
+      "copilot_confidence": 0.15186539357242665
+    },
+    "analytics-platform/src/routes/events.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/events.js",
+      "language": "JavaScript",
+      "file_size": 4725,
+      "total_lines": 176,
+      "code_lines": 141,
+      "comment_lines": 9,
+      "blank_lines": 26,
+      "last_modified": "2025-05-31T17:26:13.237715",
+      "file_hash": "b59cc56db1c1541c9c5723f54ccaac6c",
+      "copilot_analysis": {
+        "confidence_score": 0.14166666666666666,
+        "estimated_lines": 21,
+        "total_analyzed_lines": 150,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.41666666666666663
+        },
+        "statistical_analysis": {
+          "avg_line_length": 30.173333333333332,
+          "line_length_variance": 18.842243937481346,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.24346076458752516,
+          "most_common_tokens": [
+            [
+              "error",
+              34
+            ],
+            [
+              "events",
+              33
+            ],
+            [
+              "const",
+              26
+            ],
+            [
+              "joi",
+              18
+            ],
+            [
+              "eventservice",
+              17
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 21,
+      "estimated_human_lines": 120,
+      "copilot_confidence": 0.14166666666666666
+    },
+    "analytics-platform/src/routes/analytics.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/analytics.js",
+      "language": "JavaScript",
+      "file_size": 2797,
+      "total_lines": 83,
+      "code_lines": 61,
+      "comment_lines": 5,
+      "blank_lines": 17,
+      "last_modified": "2025-05-31T17:26:48.132712",
+      "file_hash": "b5c77edbec946bc6f61348a71375e1e7",
+      "copilot_analysis": {
+        "confidence_score": 0.15606060606060607,
+        "estimated_lines": 10,
+        "total_analyzed_lines": 66,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.5606060606060606
+        },
+        "statistical_analysis": {
+          "avg_line_length": 40.53030303030303,
+          "line_length_variance": 25.976450694349886,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.1958762886597938,
+          "most_common_tokens": [
+            [
+              "error",
+              25
+            ],
+            [
+              "const",
+              20
+            ],
+            [
+              "analyticsservice",
+              17
+            ],
+            [
+              "analytics",
+              17
+            ],
+            [
+              "res",
+              15
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 10,
+      "estimated_human_lines": 51,
+      "copilot_confidence": 0.15606060606060607
+    },
+    "analytics-platform/src/routes/dashboard.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/dashboard.js",
+      "language": "JavaScript",
+      "file_size": 1757,
+      "total_lines": 53,
+      "code_lines": 41,
+      "comment_lines": 2,
+      "blank_lines": 10,
+      "last_modified": "2025-05-31T17:28:15.405706",
+      "file_hash": "b9ec86f12f274b1d74d2de3fb85e30b9",
+      "copilot_analysis": {
+        "confidence_score": 0.15174418604651163,
+        "estimated_lines": 6,
+        "total_analyzed_lines": 43,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.5174418604651163
+        },
+        "statistical_analysis": {
+          "avg_line_length": 39.46511627906977,
+          "line_length_variance": 24.43879511215265,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.3742690058479532,
+          "most_common_tokens": [
+            [
+              "const",
+              14
+            ],
+            [
+              "analyticsservice",
+              12
+            ],
+            [
+              "error",
+              10
+            ],
+            [
+              "res",
+              6
+            ],
+            [
+              "await",
+              6
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 6,
+      "estimated_human_lines": 35,
+      "copilot_confidence": 0.15174418604651163
+    },
+    "analytics-platform/src/routes/auth.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/auth.js",
+      "language": "JavaScript",
+      "file_size": 3883,
+      "total_lines": 138,
+      "code_lines": 108,
+      "comment_lines": 7,
+      "blank_lines": 23,
+      "last_modified": "2025-05-31T17:28:07.110706",
+      "file_hash": "fddf2eb8550705e7372936f20c8148cd",
+      "copilot_analysis": {
+        "confidence_score": 0.04152173913043478,
+        "estimated_lines": 4,
+        "total_analyzed_lines": 115,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.4152173913043478
+        },
+        "statistical_analysis": {
+          "avg_line_length": 32.504347826086956,
+          "line_length_variance": 21.329649043034166,
+          "indentation_consistency": 0.3975421645902195,
+          "unique_token_ratio": 0.332579185520362,
+          "most_common_tokens": [
+            [
+              "error",
+              23
+            ],
+            [
+              "const",
+              18
+            ],
+            [
+              "api",
+              18
+            ],
+            [
+              "key_name",
+              15
+            ],
+            [
+              "keys",
+              12
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 4,
+      "estimated_human_lines": 104,
+      "copilot_confidence": 0.04152173913043478
+    },
+    "analytics-platform/src/routes/reports.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/reports.js",
+      "language": "JavaScript",
+      "file_size": 3555,
+      "total_lines": 94,
+      "code_lines": 78,
+      "comment_lines": 2,
+      "blank_lines": 14,
+      "last_modified": "2025-05-31T17:28:27.274705",
+      "file_hash": "cec28cc9084747f41077ed3a8fbea883",
+      "copilot_analysis": {
+        "confidence_score": 0.043750000000000004,
+        "estimated_lines": 3,
+        "total_analyzed_lines": 80,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.4375
+        },
+        "statistical_analysis": {
+          "avg_line_length": 43.075,
+          "line_length_variance": 27.541809414466304,
+          "indentation_consistency": 0.3766086497890295,
+          "unique_token_ratio": 0.3281733746130031,
+          "most_common_tokens": [
+            [
+              "const",
+              20
+            ],
+            [
+              "developer",
+              15
+            ],
+            [
+              "analyticsservice",
+              13
+            ],
+            [
+              "timeframe",
+              11
+            ],
+            [
+              "error",
+              11
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 3,
+      "estimated_human_lines": 75,
+      "copilot_confidence": 0.043750000000000004
+    },
+    "analytics-platform/src/services/eventService.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/services/eventService.js",
+      "language": "JavaScript",
+      "file_size": 8036,
+      "total_lines": 271,
+      "code_lines": 219,
+      "comment_lines": 10,
+      "blank_lines": 42,
+      "last_modified": "2025-05-31T17:26:38.006713",
+      "file_hash": "e48fe5070b50063522ef9f8efd1a41b8",
+      "copilot_analysis": {
+        "confidence_score": 0.0861353711790393,
+        "estimated_lines": 19,
+        "total_analyzed_lines": 229,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.2,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.361353711790393
+        },
+        "statistical_analysis": {
+          "avg_line_length": 33.60698689956332,
+          "line_length_variance": 26.582099637623894,
+          "indentation_consistency": 0.5020950091048919,
+          "unique_token_ratio": 0.23038605230386053,
+          "most_common_tokens": [
+            [
+              "0",
+              28
+            ],
+            [
+              "client",
+              26
+            ],
+            [
+              "event",
+              25
+            ],
+            [
+              "id",
+              24
+            ],
+            [
+              "const",
+              23
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 19,
+      "estimated_human_lines": 200,
+      "copilot_confidence": 0.0861353711790393
+    },
+    "analytics-platform/src/middleware/auth.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/middleware/auth.js",
+      "language": "JavaScript",
+      "file_size": 1472,
+      "total_lines": 52,
+      "code_lines": 39,
+      "comment_lines": 2,
+      "blank_lines": 11,
+      "last_modified": "2025-05-31T17:27:29.645709",
+      "file_hash": "8905fe6bc45620a0b310df62bb636668",
+      "copilot_analysis": {
+        "confidence_score": 0.14329268292682928,
+        "estimated_lines": 5,
+        "total_analyzed_lines": 41,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.4329268292682927
+        },
+        "statistical_analysis": {
+          "avg_line_length": 34.170731707317074,
+          "line_length_variance": 25.185216337193125,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.5555555555555556,
+          "most_common_tokens": [
+            [
+              "const",
+              8
+            ],
+            [
+              "error",
+              8
+            ],
+            [
+              "api",
+              5
+            ],
+            [
+              "key",
+              5
+            ],
+            [
+              "pool",
+              4
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 5,
+      "estimated_human_lines": 34,
+      "copilot_confidence": 0.14329268292682928
+    },
+    "analytics-platform/src/services/analyticsService.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/services/analyticsService.js",
+      "language": "JavaScript",
+      "file_size": 8590,
+      "total_lines": 238,
+      "code_lines": 216,
+      "comment_lines": 0,
+      "blank_lines": 22,
+      "last_modified": "2025-05-31T17:27:14.486710",
+      "file_hash": "35c51ff6c3dcda62d4b336314249f937",
+      "copilot_analysis": {
+        "confidence_score": 0.04328703703703704,
+        "estimated_lines": 9,
+        "total_analyzed_lines": 216,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.43287037037037035
+        },
+        "statistical_analysis": {
+          "avg_line_length": 38.523148148148145,
+          "line_length_variance": 24.853045694152346,
+          "indentation_consistency": 0.5031888653981678,
+          "unique_token_ratio": 0.20351758793969849,
+          "most_common_tokens": [
+            [
+              "row",
+              47
+            ],
+            [
+              "as",
+              34
+            ],
+            [
+              "count",
+              32
+            ],
+            [
+              "parseint",
+              27
+            ],
+            [
+              "0",
+              25
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 9,
+      "estimated_human_lines": 207,
+      "copilot_confidence": 0.04328703703703704
+    },
+    "analytics-platform/src/database/migrate.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/database/migrate.js",
+      "language": "JavaScript",
+      "file_size": 5104,
+      "total_lines": 166,
+      "code_lines": 134,
+      "comment_lines": 12,
+      "blank_lines": 20,
+      "last_modified": "2025-05-31T17:25:58.252716",
+      "file_hash": "a8bff3e457432870795bb9f0ad47354a",
+      "copilot_analysis": {
+        "confidence_score": 0.1582191780821918,
+        "estimated_lines": 23,
+        "total_analyzed_lines": 146,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.5821917808219178
+        },
+        "statistical_analysis": {
+          "avg_line_length": 33.678082191780824,
+          "line_length_variance": 19.829596455979406,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.27636363636363637,
+          "most_common_tokens": [
+            [
+              "not",
+              32
+            ],
+            [
+              "create",
+              21
+            ],
+            [
+              "if",
+              21
+            ],
+            [
+              "default",
+              21
+            ],
+            [
+              "exists",
+              19
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 23,
+      "estimated_human_lines": 111,
+      "copilot_confidence": 0.1582191780821918
+    },
+    "analytics-platform/src/config/database.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/config/database.js",
+      "language": "JavaScript",
+      "file_size": 282,
+      "total_lines": 11,
+      "code_lines": 9,
+      "comment_lines": 0,
+      "blank_lines": 2,
+      "last_modified": "2025-05-31T17:29:36.565700",
+      "file_hash": "aa29554fbdbb24707759c207a82fe1a5",
+      "copilot_analysis": {
+        "confidence_score": 0.09041666666666667,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 9,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.29166666666666663
+        },
+        "statistical_analysis": {
+          "avg_line_length": 30.22222222222222,
+          "line_length_variance": 24.185624747863027,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.8148148148148148,
+          "most_common_tokens": [
+            [
+              "const",
+              2
+            ],
+            [
+              "config",
+              2
+            ],
+            [
+              "process",
+              2
+            ],
+            [
+              "env",
+              2
+            ],
+            [
+              "false",
+              2
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 9,
+      "copilot_confidence": 0.09041666666666667
+    },
+    "analytics-platform/src/middleware/errorHandler.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/middleware/errorHandler.js",
+      "language": "JavaScript",
+      "file_size": 831,
+      "total_lines": 35,
+      "code_lines": 28,
+      "comment_lines": 2,
+      "blank_lines": 5,
+      "last_modified": "2025-05-31T17:27:51.635708",
+      "file_hash": "8007af3458ea37ac362dd7c4b38f9d94",
+      "copilot_analysis": {
+        "confidence_score": 0.14666666666666667,
+        "estimated_lines": 4,
+        "total_analyzed_lines": 30,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.4666666666666667
+        },
+        "statistical_analysis": {
+          "avg_line_length": 26.566666666666666,
+          "line_length_variance": 14.945148753504188,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.5698924731182796,
+          "most_common_tokens": [
+            [
+              "error",
+              7
+            ],
+            [
+              "err",
+              6
+            ],
+            [
+              "message",
+              6
+            ],
+            [
+              "status",
+              6
+            ],
+            [
+              "req",
+              5
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 4,
+      "estimated_human_lines": 24,
+      "copilot_confidence": 0.14666666666666667
+    },
+    "analytics-platform/src/utils/logger.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/utils/logger.js",
+      "language": "JavaScript",
+      "file_size": 643,
+      "total_lines": 23,
+      "code_lines": 20,
+      "comment_lines": 0,
+      "blank_lines": 3,
+      "last_modified": "2025-05-31T17:27:45.936708",
+      "file_hash": "b39a95f5946a1941ea82e62e4fea82f4",
+      "copilot_analysis": {
+        "confidence_score": 0.12250000000000001,
+        "estimated_lines": 2,
+        "total_analyzed_lines": 20,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "explicit_ai_mentions": false,
+          "perfect_structure": false,
+          "consistent_naming": false,
+          "ai_complexity_patterns": false,
+          "high_syntax_quality": false
+        },
+        "detailed_scores": {
+          "explicit_indicators": 0.0,
+          "structural_patterns": 0.0,
+          "naming_consistency": 0.0,
+          "complexity_patterns": 0.0,
+          "syntax_quality": 0.225
+        },
+        "statistical_analysis": {
+          "avg_line_length": 31.05,
+          "line_length_variance": 21.490450755724286,
+          "indentation_consistency": 1.0,
+          "unique_token_ratio": 0.5362318840579711,
+          "most_common_tokens": [
+            [
+              "winston",
+              11
+            ],
+            [
+              "format",
+              7
+            ],
+            [
+              "transports",
+              4
+            ],
+            [
+              "logger",
+              3
+            ],
+            [
+              "new",
+              3
+            ]
+          ]
+        }
+      },
+      "estimated_copilot_lines": 2,
+      "estimated_human_lines": 18,
+      "copilot_confidence": 0.12250000000000001
+    }
+  },
+  "summary": {
+    "total_files": 26,
+    "total_lines": 6134,
+    "total_code_lines": 4835,
+    "copilot_lines": 1605,
+    "human_lines": 3230,
+    "copilot_percentage": 33.2,
+    "human_percentage": 66.8,
+    "average_confidence": 0.253,
+    "high_confidence_files": 0,
+    "high_confidence_percentage": 0.0,
+    "file_size_stats": {
+      "min": 9,
+      "max": 584,
+      "mean": 185.96153846153845,
+      "median": 181.5
+    }
+  },
+  "language_breakdown": {
+    "Python": {
+      "files": 11,
+      "total_lines": 3869,
+      "code_lines": 2964,
+      "copilot_lines": 1418,
+      "human_lines": 1546,
+      "copilot_percentage": 47.84,
+      "human_percentage": 52.16,
+      "average_confidence": 0.45
+    },
+    "JavaScript": {
+      "files": 15,
+      "total_lines": 2265,
+      "code_lines": 1871,
+      "copilot_lines": 187,
+      "human_lines": 1684,
+      "copilot_percentage": 9.99,
+      "human_percentage": 90.01,
+      "average_confidence": 0.108
+    }
+  },
+  "git_info": {
+    "current_branch": "main",
+    "last_commit": "d033cdd2",
+    "last_commit_date": "2025-06-04T04:28:54+00:00",
+    "total_commits": 18
+  }
+}
