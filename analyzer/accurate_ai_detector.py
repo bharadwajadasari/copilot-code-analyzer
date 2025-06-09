@@ -17,6 +17,13 @@ class AccurateAIDetector:
         
         # Very strong AI indicators - almost certain AI generation
         self.strong_ai_indicators = [
+            # Explicit AI markers - highest confidence
+            r'#.*[Cc]ode [Gg]enerated by [Cc]opilot',  # Direct Copilot attribution
+            r'#.*[Gg]enerated by [Cc]opilot',  # Alternative Copilot attribution
+            r'#.*[Cc]opilot [Gg]enerated',  # Another Copilot variant
+            r'#.*[Aa][Ii][-\s]*[Gg]enerated',  # AI generated markers
+            r'#.*[Gg]itHub [Cc]opilot',  # GitHub Copilot reference
+            
             # Comprehensive documentation patterns
             r'"""[\s\S]{150,}?"""',  # Very long docstrings
             r'Args:\s*\n[\s\S]*?Returns:\s*\n[\s\S]*?"""',  # Perfect docstring format
@@ -112,8 +119,15 @@ class AccurateAIDetector:
         # Apply human penalty only for very obvious human patterns
         human_penalty = min(human_score * self.weights['human_penalty'], 0.3)
         
+        # Check for explicit Copilot markers
+        copilot_markers = self._detect_copilot_markers(content)
+        
         # Final confidence score
         confidence = max(0.0, min(1.0, base_confidence - human_penalty))
+        
+        # Boost confidence significantly when explicit Copilot markers are found
+        if copilot_markers:
+            confidence = max(confidence, 0.95)  # Very high confidence for explicit markers
         
         # Apply file size adjustments
         if total_lines < 20:
@@ -134,11 +148,13 @@ class AccurateAIDetector:
             'total_analyzed_lines': total_lines,
             'risk_level': risk_level,
             'language': self._detect_language(file_extension),
+            'copilot_markers': copilot_markers,
             'indicators': {
                 'strong_ai_patterns': strong_score > 0.3,
                 'moderate_ai_patterns': moderate_score > 0.3,
                 'weak_ai_patterns': weak_score > 0.3,
-                'human_patterns_detected': human_score > 0.3
+                'human_patterns_detected': human_score > 0.3,
+                'explicit_copilot_markers': len(copilot_markers) > 0
             },
             'detailed_scores': {
                 'strong_indicators': strong_score,
@@ -146,9 +162,10 @@ class AccurateAIDetector:
                 'weak_indicators': weak_score,
                 'human_patterns': human_score,
                 'base_confidence': base_confidence,
-                'human_penalty_applied': human_penalty
+                'human_penalty_applied': human_penalty,
+                'copilot_marker_count': len(copilot_markers)
             },
-            'analysis_explanation': self._generate_explanation(confidence, strong_score, moderate_score, human_score)
+            'analysis_explanation': self._generate_explanation(confidence, strong_score, moderate_score, human_score, copilot_markers)
         }
     
     def _calculate_pattern_score(self, content: str, compiled_patterns: List) -> float:
@@ -174,9 +191,40 @@ class AccurateAIDetector:
         else:
             return "MINIMAL"
     
-    def _generate_explanation(self, confidence: float, strong: float, moderate: float, human: float) -> List[str]:
+    def _detect_copilot_markers(self, content: str) -> List[Dict[str, Any]]:
+        """Detect explicit Copilot markers in the code"""
+        markers = []
+        lines = content.split('\n')
+        
+        copilot_patterns = [
+            r'#.*[Cc]ode [Gg]enerated by [Cc]opilot',
+            r'#.*[Gg]enerated by [Cc]opilot',
+            r'#.*[Cc]opilot [Gg]enerated',
+            r'#.*[Aa][Ii][-\s]*[Gg]enerated',
+            r'#.*[Gg]itHub [Cc]opilot'
+        ]
+        
+        compiled_patterns = [re.compile(p, re.IGNORECASE) for p in copilot_patterns]
+        
+        for line_num, line in enumerate(lines, 1):
+            for pattern in compiled_patterns:
+                if pattern.search(line):
+                    markers.append({
+                        'line_number': line_num,
+                        'content': line.strip(),
+                        'marker_type': 'copilot_attribution'
+                    })
+                    break
+        
+        return markers
+    
+    def _generate_explanation(self, confidence: float, strong: float, moderate: float, human: float, copilot_markers: List[Dict[str, Any]]) -> List[str]:
         """Generate human-readable explanation"""
         explanations = []
+        
+        # Check for explicit Copilot markers first
+        if copilot_markers:
+            explanations.append(f"Explicit Copilot markers found ({len(copilot_markers)} instances)")
         
         if confidence >= 0.7:
             explanations.append(f"Very high confidence ({confidence:.1%}) of AI generation")
