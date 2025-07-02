@@ -142,7 +142,15 @@ class Dashboard {
         this.updateElement('total-repositories', stats.total_repositories || 0);
         this.updateElement('total-files', this.formatNumber(stats.total_files || 0));
         this.updateElement('total-lines', this.formatNumber(stats.total_lines || 0));
-        this.updateElement('copilot-percentage', `${stats.copilot_percentage || 0}%`);
+        
+        // Format copilot percentage with proper decimal handling
+        const copilotPercentage = stats.copilot_percentage || 0;
+        const formattedPercentage = Number(copilotPercentage).toFixed(1);
+        this.updateElement('copilot-percentage', `${formattedPercentage}%`);
+        
+        // Debug logging
+        console.log('Stats received:', stats);
+        console.log('Copilot percentage:', copilotPercentage, 'Formatted:', formattedPercentage);
         
         // Update charts
         this.updateDistributionChart(stats);
