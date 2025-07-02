@@ -3,6 +3,9 @@
     "supported_extensions": [".py", ".js", ".java", ".cpp", ".c", ".go", ".rs", ".ts", ".jsx", ".tsx"],
     "ignore_patterns": ["*.min.js", "node_modules/*", "__pycache__/*", ".git/*", "*.pyc", "dist/*", "build/*"],
     "evasion_resistance": true,
+    "optimized_mode": true,
+    "max_workers": 8,
+    "batch_size": 100,
     "copilot_indicators": {
       "conservative_mode": true,
       "comment_patterns": [
