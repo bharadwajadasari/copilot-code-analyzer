@@ -4,6 +4,7 @@
     "ignore_patterns": ["*.min.js", "node_modules/*", "__pycache__/*", ".git/*", "*.pyc", "dist/*", "build/*"],
     "evasion_resistance": true,
     "copilot_indicators": {
+      "conservative_mode": true,
       "comment_patterns": [
         "# Copilot suggestion",
         "// Copilot suggestion",
