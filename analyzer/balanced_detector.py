@@ -253,17 +253,23 @@ class BalancedCopilotDetector:
         
         # Very small files are harder to classify accurately
         if total_lines < 20:
+            confidence *= 0.5
+        elif total_lines < 50:
             confidence *= 0.7
         
-        # Very large files with consistent patterns are more likely AI
-        elif total_lines > 200 and confidence > 0.5:
-            confidence = min(confidence * 1.2, 1.0)
+        # For files without explicit AI markers, cap confidence at realistic levels
+        if confidence > 0.2 and total_lines > 30:
+            confidence = min(confidence * 0.6, 0.15)  # Cap at 15% for typical code
         
-        # Apply sigmoid-like curve to avoid extreme values
-        if confidence > 0.8:
-            confidence = 0.8 + (confidence - 0.8) * 0.5  # Compress high values
+        # Apply minimum threshold - anything below 8% is likely noise
+        if confidence < 0.08:
+            confidence = 0.0
         
-        return min(max(confidence, 0.0), 0.95)  # Cap at 95%
+        # Only allow high confidence with clear indicators
+        if confidence > 0.4:
+            confidence = 0.4 + (confidence - 0.4) * 0.3  # Compress high values
+        
+        return min(max(confidence, 0.0), 0.85)  # Cap at 85%
     
     def _calculate_balanced_risk(self, confidence: float, strong_score: float, moderate_score: float) -> str:
         """Calculate balanced risk assessment"""
