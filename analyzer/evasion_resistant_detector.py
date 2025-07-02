@@ -11,11 +11,14 @@ from typing import Dict, List, Any, Set, Tuple
 from collections import Counter, defaultdict
 import statistics
 from .java_evasion_detector import JavaEvasionDetector
+from .conservative_evasion_detector import ConservativeEvasionDetector
 
 class EvasionResistantDetector:
     def __init__(self, indicators_config: Dict[str, Any]):
         self.config = indicators_config
         self.java_detector = JavaEvasionDetector(indicators_config)
+        self.conservative_detector = ConservativeEvasionDetector(indicators_config)
+        self.use_conservative_mode = indicators_config.get('conservative_mode', True)
         self._initialize_deep_patterns()
         self._initialize_semantic_analysis()
         self._initialize_weights()
@@ -118,6 +121,10 @@ class EvasionResistantDetector:
     
     def analyze_content(self, content: str, file_extension: str) -> Dict[str, Any]:
         """Analyze content with evasion-resistant techniques"""
+        
+        # Use conservative mode by default for realistic detection rates
+        if self.use_conservative_mode:
+            return self.conservative_detector.analyze_content(content, file_extension)
         
         # Use Java-specific detector for Java files
         if file_extension == '.java':
