@@ -1,0 +1,2458 @@
+{
+  "repository_path": "/home/runner/workspace",
+  "timestamp": "2025-07-02T06:01:47.654030",
+  "files": {
+    "main.py": {
+      "file_path": "/home/runner/workspace/main.py",
+      "language": "Python",
+      "file_size": 8474,
+      "total_lines": 237,
+      "code_lines": 187,
+      "comment_lines": 9,
+      "blank_lines": 41,
+      "last_modified": "2025-05-31T15:56:18.345167",
+      "file_hash": "894e19e3592b5b064319d48f4e885ba9",
+      "copilot_analysis": {
+        "confidence_score": 0.12160932105868813,
+        "estimated_lines": 23,
+        "total_analyzed_lines": 196,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.35161744022503516,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7272727272727272,
+          "human_patterns": 1.0,
+          "base_confidence": 0.22518220176448023,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (12.2%) of AI assistance",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 23,
+      "estimated_human_lines": 164,
+      "copilot_confidence": 0.12160932105868813
+    },
+    "upload_to_github.py": {
+      "file_path": "/home/runner/workspace/upload_to_github.py",
+      "language": "Python",
+      "file_size": 3752,
+      "total_lines": 110,
+      "code_lines": 81,
+      "comment_lines": 9,
+      "blank_lines": 20,
+      "last_modified": "2025-06-04T15:17:14.103487",
+      "file_hash": "8980996077e2ce4b1456eff48494e5a8",
+      "copilot_analysis": {
+        "confidence_score": 0.19047028253549994,
+        "estimated_lines": 17,
+        "total_analyzed_lines": 90,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.30303030303030304,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7745571658615136,
+          "human_patterns": 1.0,
+          "base_confidence": 0.21297028253549993,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (19.0%) of AI assistance",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 17,
+      "estimated_human_lines": 64,
+      "copilot_confidence": 0.19047028253549994
+    },
+    "test_detection_accuracy.py": {
+      "file_path": "/home/runner/workspace/test_detection_accuracy.py",
+      "language": "Python",
+      "file_size": 6354,
+      "total_lines": 209,
+      "code_lines": 156,
+      "comment_lines": 11,
+      "blank_lines": 42,
+      "last_modified": "2025-06-04T04:29:30.917305",
+      "file_hash": "320dbe5d7393c406c372d3f66983216a",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 25,
+        "total_analyzed_lines": 167,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.5,
+          "moderate_indicators": 0.3349282296650718,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8888888888888888,
+          "human_patterns": 1.0,
+          "base_confidence": 0.394922913343966,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 25,
+      "estimated_human_lines": 131,
+      "copilot_confidence": 0.15
+    },
+    "upload_conservative_fix.py": {
+      "file_path": "/home/runner/workspace/upload_conservative_fix.py",
+      "language": "Python",
+      "file_size": 2784,
+      "total_lines": 82,
+      "code_lines": 61,
+      "comment_lines": 2,
+      "blank_lines": 19,
+      "last_modified": "2025-06-04T15:47:41.715935",
+      "file_hash": "b444e967b255bd57766e393c4bd6c7c9",
+      "copilot_analysis": {
+        "confidence_score": 0.0826882755669662,
+        "estimated_lines": 5,
+        "total_analyzed_lines": 63,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.24390243902439027,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.6403508771929824,
+          "human_patterns": 1.0,
+          "base_confidence": 0.10518827556696621,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 5,
+      "estimated_human_lines": 56,
+      "copilot_confidence": 0.0826882755669662
+    },
+    "upload_calibrated_detector.py": {
+      "file_path": "/home/runner/workspace/upload_calibrated_detector.py",
+      "language": "Python",
+      "file_size": 2790,
+      "total_lines": 82,
+      "code_lines": 62,
+      "comment_lines": 1,
+      "blank_lines": 19,
+      "last_modified": "2025-06-04T16:50:49.904238",
+      "file_hash": "c19ded73b9dcf0f8aa95539a85ff7d7a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 63,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.24390243902439027,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.47368421052631576,
+          "human_patterns": 1.0,
+          "base_confidence": 0.09685494223363288,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 62,
+      "copilot_confidence": 0.0
+    },
+    "upload_final_balanced.py": {
+      "file_path": "/home/runner/workspace/upload_final_balanced.py",
+      "language": "Python",
+      "file_size": 2883,
+      "total_lines": 84,
+      "code_lines": 64,
+      "comment_lines": 1,
+      "blank_lines": 19,
+      "last_modified": "2025-06-04T15:53:21.434461",
+      "file_hash": "200f8c8b0d0932543c2144d506028fe4",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 65,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.2380952380952381,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.47368421052631576,
+          "human_patterns": 1.0,
+          "base_confidence": 0.09511278195488722,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 64,
+      "copilot_confidence": 0.0
+    },
+    "test_ai_detection.py": {
+      "file_path": "/home/runner/workspace/test_ai_detection.py",
+      "language": "Python",
+      "file_size": 6684,
+      "total_lines": 211,
+      "code_lines": 160,
+      "comment_lines": 9,
+      "blank_lines": 42,
+      "last_modified": "2025-06-04T15:52:21.980544",
+      "file_hash": "54aa2c436e8826ec1adf7ab58b0fe9f2",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 25,
+        "total_analyzed_lines": 169,
+        "risk_level": "HIGH",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.6666666666666666,
+          "moderate_indicators": 0.33175355450236965,
+          "weak_indicators": 0.0947867298578199,
+          "consistency_score": 0.787878787878788,
+          "human_patterns": 1.0,
+          "base_confidence": 0.4864713485566565,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 25,
+      "estimated_human_lines": 135,
+      "copilot_confidence": 0.15
+    },
+    "test_baseball_ai.py": {
+      "file_path": "/home/runner/workspace/test_baseball_ai.py",
+      "language": "Python",
+      "file_size": 10861,
+      "total_lines": 318,
+      "code_lines": 248,
+      "comment_lines": 9,
+      "blank_lines": 61,
+      "last_modified": "2025-06-04T16:53:59.431050",
+      "file_hash": "e34f243e940778ccdf62019c3cf10a67",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 38,
+        "total_analyzed_lines": 257,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.5,
+          "moderate_indicators": 0.23060796645702308,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5922184605634043,
+          "human_patterns": 1.0,
+          "base_confidence": 0.3487933129652771,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 38,
+      "estimated_human_lines": 210,
+      "copilot_confidence": 0.15
+    },
+    "upload_accurate_detector.py": {
+      "file_path": "/home/runner/workspace/upload_accurate_detector.py",
+      "language": "Python",
+      "file_size": 2818,
+      "total_lines": 83,
+      "code_lines": 63,
+      "comment_lines": 1,
+      "blank_lines": 19,
+      "last_modified": "2025-06-04T16:56:07.755924",
+      "file_hash": "6816c253109a9f102d9fff7e556c93ed",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 64,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.24096385542168672,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.47368421052631576,
+          "human_patterns": 1.0,
+          "base_confidence": 0.0959733671528218,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 63,
+      "copilot_confidence": 0.0
+    },
+    "test_copilot_markers.py": {
+      "file_path": "/home/runner/workspace/test_copilot_markers.py",
+      "language": "Python",
+      "file_size": 3056,
+      "total_lines": 90,
+      "code_lines": 60,
+      "comment_lines": 11,
+      "blank_lines": 19,
+      "last_modified": "2025-06-09T19:21:17.539954",
+      "file_hash": "c989d0bb327e1ad80b7fd7c0a9d8307f",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 10,
+        "total_analyzed_lines": 71,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.40740740740740744,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8427128427128427,
+          "human_patterns": 1.0,
+          "base_confidence": 0.331024531024531,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 10,
+      "estimated_human_lines": 50,
+      "copilot_confidence": 0.15
+    },
+    "upload_copilot_marker_system.py": {
+      "file_path": "/home/runner/workspace/upload_copilot_marker_system.py",
+      "language": "Python",
+      "file_size": 2949,
+      "total_lines": 84,
+      "code_lines": 64,
+      "comment_lines": 1,
+      "blank_lines": 19,
+      "last_modified": "2025-06-09T19:22:14.760911",
+      "file_hash": "76d08311516e73ab3c425d0711f1572c",
+      "copilot_analysis": {
+        "confidence_score": 0.15594611528822055,
+        "estimated_lines": 10,
+        "total_analyzed_lines": 65,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.2380952380952381,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.47368421052631576,
+          "human_patterns": 1.0,
+          "base_confidence": 0.17844611528822055,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.6%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 10,
+      "estimated_human_lines": 54,
+      "copilot_confidence": 0.15594611528822055
+    },
+    "upload_dashboard_fix.py": {
+      "file_path": "/home/runner/workspace/upload_dashboard_fix.py",
+      "language": "Python",
+      "file_size": 4040,
+      "total_lines": 109,
+      "code_lines": 79,
+      "comment_lines": 9,
+      "blank_lines": 21,
+      "last_modified": "2025-07-02T05:29:18.126550",
+      "file_hash": "d50cffbb32464f65eb45b30e55e5ce97",
+      "copilot_analysis": {
+        "confidence_score": 0.16382740008886795,
+        "estimated_lines": 14,
+        "total_analyzed_lines": 88,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.4862385321100917,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.809116809116809,
+          "human_patterns": 1.0,
+          "base_confidence": 0.18632740008886794,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (16.4%) of AI assistance",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 14,
+      "estimated_human_lines": 65,
+      "copilot_confidence": 0.16382740008886795
+    },
+    "commit_dashboard_fix.py": {
+      "file_path": "/home/runner/workspace/commit_dashboard_fix.py",
+      "language": "Python",
+      "file_size": 2338,
+      "total_lines": 73,
+      "code_lines": 49,
+      "comment_lines": 9,
+      "blank_lines": 15,
+      "last_modified": "2025-07-02T05:30:39.510691",
+      "file_hash": "e9c63d2c37f8a9dc166b54cc426ca901",
+      "copilot_analysis": {
+        "confidence_score": 0.08273779006114983,
+        "estimated_lines": 4,
+        "total_analyzed_lines": 58,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.228310502283105,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7348927875243665,
+          "human_patterns": 1.0,
+          "base_confidence": 0.10523779006114983,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 4,
+      "estimated_human_lines": 45,
+      "copilot_confidence": 0.08273779006114983
+    },
+    "test_realistic_detection.py": {
+      "file_path": "/home/runner/workspace/test_realistic_detection.py",
+      "language": "Python",
+      "file_size": 3313,
+      "total_lines": 103,
+      "code_lines": 80,
+      "comment_lines": 3,
+      "blank_lines": 20,
+      "last_modified": "2025-07-02T05:53:24.989020",
+      "file_hash": "48e0d7932936db75a9ee00c35a176c64",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 12,
+        "total_analyzed_lines": 83,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.517799352750809,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7138888888888889,
+          "human_patterns": 1.0,
+          "base_confidence": 0.2743675836030205,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 12,
+      "estimated_human_lines": 68,
+      "copilot_confidence": 0.15
+    },
+    "github_commit.py": {
+      "file_path": "/home/runner/workspace/github_commit.py",
+      "language": "Python",
+      "file_size": 2316,
+      "total_lines": 75,
+      "code_lines": 52,
+      "comment_lines": 7,
+      "blank_lines": 16,
+      "last_modified": "2025-07-02T05:42:32.444930",
+      "file_hash": "52316347acc06bbff6fa8eeca07455b4",
+      "copilot_analysis": {
+        "confidence_score": 0.11585978835978834,
+        "estimated_lines": 6,
+        "total_analyzed_lines": 59,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.3333333333333333,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7671957671957671,
+          "human_patterns": 1.0,
+          "base_confidence": 0.13835978835978835,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (11.6%) of AI assistance",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 6,
+      "estimated_human_lines": 46,
+      "copilot_confidence": 0.11585978835978834
+    },
+    "create_granular_reporter.py": {
+      "file_path": "/home/runner/workspace/create_granular_reporter.py",
+      "language": "Python",
+      "file_size": 5151,
+      "total_lines": 122,
+      "code_lines": 94,
+      "comment_lines": 6,
+      "blank_lines": 22,
+      "last_modified": "2025-07-02T06:01:41.551388",
+      "file_hash": "f3459db76b341a8c33b4c81003c62ffd",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 15,
+        "total_analyzed_lines": 100,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.3333333333333333,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.825925925925926,
+          "human_patterns": 1.0,
+          "base_confidence": 0.307962962962963,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 15,
+      "estimated_human_lines": 79,
+      "copilot_confidence": 0.15
+    },
+    "commit_detection_improvements.py": {
+      "file_path": "/home/runner/workspace/commit_detection_improvements.py",
+      "language": "Python",
+      "file_size": 3325,
+      "total_lines": 96,
+      "code_lines": 67,
+      "comment_lines": 8,
+      "blank_lines": 21,
+      "last_modified": "2025-07-02T05:56:20.282553",
+      "file_hash": "c9ba8b42af15eaf0fc57dfbed3924be9",
+      "copilot_analysis": {
+        "confidence_score": 0.10104497354497353,
+        "estimated_lines": 7,
+        "total_analyzed_lines": 75,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.2777777777777778,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8042328042328042,
+          "human_patterns": 1.0,
+          "base_confidence": 0.12354497354497354,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (10.1%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 7,
+      "estimated_human_lines": 60,
+      "copilot_confidence": 0.10104497354497353
+    },
+    "analyzer/copilot_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/copilot_detector.py",
+      "language": "Python",
+      "file_size": 12763,
+      "total_lines": 310,
+      "code_lines": 240,
+      "comment_lines": 21,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T04:26:31.514674",
+      "file_hash": "7fc60613dfabd90e75da0741f040e27a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 261,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.01075268817204301,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.9115798180314308,
+          "human_patterns": 1.0,
+          "base_confidence": 0.04880479735318445,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 240,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/metrics_calculator.py": {
+      "file_path": "/home/runner/workspace/analyzer/metrics_calculator.py",
+      "language": "Python",
+      "file_size": 12614,
+      "total_lines": 300,
+      "code_lines": 234,
+      "comment_lines": 17,
+      "blank_lines": 49,
+      "last_modified": "2025-05-31T15:58:18.053157",
+      "file_hash": "d4e8a225077163b30b81f6c23af0f208",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 251,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.06666666666666667,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.91324200913242,
+          "human_patterns": 1.0,
+          "base_confidence": 0.065662100456621,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 234,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/conservative_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/conservative_detector.py",
+      "language": "Python",
+      "file_size": 8403,
+      "total_lines": 203,
+      "code_lines": 158,
+      "comment_lines": 13,
+      "blank_lines": 32,
+      "last_modified": "2025-06-04T15:46:58.029996",
+      "file_hash": "bbf684cd939c60628941ea5205029ba1",
+      "copilot_analysis": {
+        "confidence_score": 0.11964817749300506,
+        "estimated_lines": 20,
+        "total_analyzed_lines": 171,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.04926108374384236,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8807303807303807,
+          "human_patterns": 1.0,
+          "base_confidence": 0.14214817749300507,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (12.0%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 20,
+      "estimated_human_lines": 138,
+      "copilot_confidence": 0.11964817749300506
+    },
+    "analyzer/code_analyzer.py": {
+      "file_path": "/home/runner/workspace/analyzer/code_analyzer.py",
+      "language": "Python",
+      "file_size": 9043,
+      "total_lines": 232,
+      "code_lines": 176,
+      "comment_lines": 16,
+      "blank_lines": 40,
+      "last_modified": "2025-07-02T05:52:48.728163",
+      "file_hash": "8a1578d8b07c329f321765fd5a84877f",
+      "copilot_analysis": {
+        "confidence_score": 0.1524270206166758,
+        "estimated_lines": 29,
+        "total_analyzed_lines": 192,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.15804597701149425,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8835978835978836,
+          "human_patterns": 1.0,
+          "base_confidence": 0.17492702061667578,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.2%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 29,
+      "estimated_human_lines": 147,
+      "copilot_confidence": 0.1524270206166758
+    },
+    "analyzer/accurate_ai_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/accurate_ai_detector.py",
+      "language": "Python",
+      "file_size": 12584,
+      "total_lines": 286,
+      "code_lines": 219,
+      "comment_lines": 24,
+      "blank_lines": 43,
+      "last_modified": "2025-06-09T19:20:59.608967",
+      "file_hash": "11a3f2f3c8092e61c191abdce31118c1",
+      "copilot_analysis": {
+        "confidence_score": 0.12255048609926658,
+        "estimated_lines": 29,
+        "total_analyzed_lines": 243,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.05827505827505827,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8520325203252033,
+          "human_patterns": 1.0,
+          "base_confidence": 0.2267508101654443,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (12.3%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 29,
+      "estimated_human_lines": 190,
+      "copilot_confidence": 0.12255048609926658
+    },
+    "analyzer/enhanced_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/enhanced_detector.py",
+      "language": "Python",
+      "file_size": 21682,
+      "total_lines": 536,
+      "code_lines": 400,
+      "comment_lines": 39,
+      "blank_lines": 97,
+      "last_modified": "2025-06-04T04:28:21.803447",
+      "file_hash": "2fbb7ef0e01f3c0542a4ca5d52c72efa",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 439,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7170269893997453,
+          "human_patterns": 1.0,
+          "base_confidence": 0.03585134946998727,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 400,
+      "copilot_confidence": 0.0
+    },
+    "analyzer/realistic_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/realistic_detector.py",
+      "language": "Python",
+      "file_size": 8067,
+      "total_lines": 208,
+      "code_lines": 159,
+      "comment_lines": 14,
+      "blank_lines": 35,
+      "last_modified": "2025-07-02T05:55:14.083690",
+      "file_hash": "f08ec23a8ef7d995b3d7cdfa97c8de17",
+      "copilot_analysis": {
+        "confidence_score": 0.12130563186813186,
+        "estimated_lines": 20,
+        "total_analyzed_lines": 173,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.04807692307692307,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8717261904761905,
+          "human_patterns": 1.0,
+          "base_confidence": 0.2246760531135531,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (12.1%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 20,
+      "estimated_human_lines": 139,
+      "copilot_confidence": 0.12130563186813186
+    },
+    "monitoring/file_watcher.py": {
+      "file_path": "/home/runner/workspace/monitoring/file_watcher.py",
+      "language": "Python",
+      "file_size": 10346,
+      "total_lines": 278,
+      "code_lines": 208,
+      "comment_lines": 15,
+      "blank_lines": 55,
+      "last_modified": "2025-05-31T16:06:32.406115",
+      "file_hash": "4550e590f48f7d562dcbeacce6d5067a",
+      "copilot_analysis": {
+        "confidence_score": 0.1621372901678657,
+        "estimated_lines": 36,
+        "total_analyzed_lines": 223,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.19184652278177458,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.875,
+          "human_patterns": 1.0,
+          "base_confidence": 0.1846372901678657,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (16.2%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 36,
+      "estimated_human_lines": 172,
+      "copilot_confidence": 0.1621372901678657
+    },
+    "analyzer/balanced_detector.py": {
+      "file_path": "/home/runner/workspace/analyzer/balanced_detector.py",
+      "language": "Python",
+      "file_size": 17218,
+      "total_lines": 403,
+      "code_lines": 310,
+      "comment_lines": 24,
+      "blank_lines": 69,
+      "last_modified": "2025-07-02T06:01:13.225376",
+      "file_hash": "0506adceb46befb2463f17cfb27200c7",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 50,
+        "total_analyzed_lines": 334,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.5,
+          "moderate_indicators": 0.02481389578163772,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.6817160707016353,
+          "human_patterns": 1.0,
+          "base_confidence": 0.2915299722695731,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 50,
+      "estimated_human_lines": 260,
+      "copilot_confidence": 0.15
+    },
+    "api/external_client.py": {
+      "file_path": "/home/runner/workspace/api/external_client.py",
+      "language": "Python",
+      "file_size": 10683,
+      "total_lines": 283,
+      "code_lines": 223,
+      "comment_lines": 9,
+      "blank_lines": 51,
+      "last_modified": "2025-05-31T16:05:53.879119",
+      "file_hash": "5ef26333b3d2f0a2022fb2b63ff91874",
+      "copilot_analysis": {
+        "confidence_score": 0.08319144903402244,
+        "estimated_lines": 19,
+        "total_analyzed_lines": 232,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.22379269729093051,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7710727969348659,
+          "human_patterns": 1.0,
+          "base_confidence": 0.10569144903402244,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 19,
+      "estimated_human_lines": 204,
+      "copilot_confidence": 0.08319144903402244
+    },
+    "storage/data_manager.py": {
+      "file_path": "/home/runner/workspace/storage/data_manager.py",
+      "language": "Python",
+      "file_size": 19415,
+      "total_lines": 489,
+      "code_lines": 394,
+      "comment_lines": 20,
+      "blank_lines": 75,
+      "last_modified": "2025-05-31T16:00:14.120148",
+      "file_hash": "b18a6a04d2e80fce6e4ea06b4ea3608b",
+      "copilot_analysis": {
+        "confidence_score": 0.14868453809904864,
+        "estimated_lines": 61,
+        "total_analyzed_lines": 414,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.2113156100886162,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.4891304347826087,
+          "human_patterns": 1.0,
+          "base_confidence": 0.17118453809904863,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (14.9%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 61,
+      "estimated_human_lines": 333,
+      "copilot_confidence": 0.14868453809904864
+    },
+    "dashboard/server.py": {
+      "file_path": "/home/runner/workspace/dashboard/server.py",
+      "language": "Python",
+      "file_size": 12788,
+      "total_lines": 306,
+      "code_lines": 252,
+      "comment_lines": 7,
+      "blank_lines": 47,
+      "last_modified": "2025-05-31T16:06:55.387112",
+      "file_hash": "96cd4a02e71c3f803eb5ef300dece527",
+      "copilot_analysis": {
+        "confidence_score": 0.10601307189542485,
+        "estimated_lines": 27,
+        "total_analyzed_lines": 259,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.29411764705882354,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8055555555555557,
+          "human_patterns": 1.0,
+          "base_confidence": 0.12851307189542485,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (10.6%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 27,
+      "estimated_human_lines": 225,
+      "copilot_confidence": 0.10601307189542485
+    },
+    "dashboard/static/script.js": {
+      "file_path": "/home/runner/workspace/dashboard/static/script.js",
+      "language": "JavaScript",
+      "file_size": 25231,
+      "total_lines": 684,
+      "code_lines": 588,
+      "comment_lines": 21,
+      "blank_lines": 75,
+      "last_modified": "2025-07-02T05:27:45.497272",
+      "file_hash": "1307103fdfef611b8b9d6063b5104ea3",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 609,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.009746588693957114,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.19999999999999998,
+          "human_patterns": 1.0,
+          "base_confidence": 0.012923976608187135,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 588,
+      "copilot_confidence": 0.0
+    },
+    "utils/logger.py": {
+      "file_path": "/home/runner/workspace/utils/logger.py",
+      "language": "Python",
+      "file_size": 9191,
+      "total_lines": 276,
+      "code_lines": 199,
+      "comment_lines": 18,
+      "blank_lines": 59,
+      "last_modified": "2025-05-31T16:04:00.449129",
+      "file_hash": "b2800dcbc9874417a7af5f9c3e832939",
+      "copilot_analysis": {
+        "confidence_score": 0.1336868406193349,
+        "estimated_lines": 29,
+        "total_analyzed_lines": 217,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.12077294685990338,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8482570061517429,
+          "human_patterns": 1.0,
+          "base_confidence": 0.24531140103222482,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (13.4%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 29,
+      "estimated_human_lines": 170,
+      "copilot_confidence": 0.1336868406193349
+    },
+    "utils/helpers.py": {
+      "file_path": "/home/runner/workspace/utils/helpers.py",
+      "language": "Python",
+      "file_size": 18777,
+      "total_lines": 622,
+      "code_lines": 451,
+      "comment_lines": 33,
+      "blank_lines": 138,
+      "last_modified": "2025-05-31T16:05:05.413123",
+      "file_hash": "86ddfec4633b721249e018ea91bf957f",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 72,
+        "total_analyzed_lines": 484,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.5,
+          "moderate_indicators": 0.1714898177920686,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.815410199556541,
+          "human_patterns": 1.0,
+          "base_confidence": 0.3422174553154476,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 72,
+      "estimated_human_lines": 379,
+      "copilot_confidence": 0.15
+    },
+    "analytics-platform/server.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/server.js",
+      "language": "JavaScript",
+      "file_size": 4173,
+      "total_lines": 136,
+      "code_lines": 110,
+      "comment_lines": 7,
+      "blank_lines": 19,
+      "last_modified": "2025-05-31T17:31:08.307693",
+      "file_hash": "592556c178d5835d6d33dc11f5cfb90f",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 117,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.3670882119157981,
+          "human_patterns": 1.0,
+          "base_confidence": 0.018354410595789905,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 110,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/events.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/events.js",
+      "language": "JavaScript",
+      "file_size": 4725,
+      "total_lines": 176,
+      "code_lines": 141,
+      "comment_lines": 9,
+      "blank_lines": 26,
+      "last_modified": "2025-05-31T17:26:13.237715",
+      "file_hash": "b59cc56db1c1541c9c5723f54ccaac6c",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 150,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 141,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/analytics.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/analytics.js",
+      "language": "JavaScript",
+      "file_size": 2797,
+      "total_lines": 83,
+      "code_lines": 61,
+      "comment_lines": 5,
+      "blank_lines": 17,
+      "last_modified": "2025-05-31T17:26:48.132712",
+      "file_hash": "b5c77edbec946bc6f61348a71375e1e7",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 66,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 61,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/server.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/server.js",
+      "language": "JavaScript",
+      "file_size": 2778,
+      "total_lines": 113,
+      "code_lines": 83,
+      "comment_lines": 12,
+      "blank_lines": 18,
+      "last_modified": "2025-05-31T17:29:59.418698",
+      "file_hash": "0c9e6f77002b4fe564599698527b5d7b",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 95,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 83,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/dashboard.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/dashboard.js",
+      "language": "JavaScript",
+      "file_size": 1757,
+      "total_lines": 53,
+      "code_lines": 41,
+      "comment_lines": 2,
+      "blank_lines": 10,
+      "last_modified": "2025-05-31T17:28:15.405706",
+      "file_hash": "b9ec86f12f274b1d74d2de3fb85e30b9",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 43,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 41,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/auth.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/auth.js",
+      "language": "JavaScript",
+      "file_size": 3883,
+      "total_lines": 138,
+      "code_lines": 108,
+      "comment_lines": 7,
+      "blank_lines": 23,
+      "last_modified": "2025-05-31T17:28:07.110706",
+      "file_hash": "fddf2eb8550705e7372936f20c8148cd",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 115,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.3187885646673281,
+          "human_patterns": 1.0,
+          "base_confidence": 0.015939428233366405,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 108,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/routes/reports.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/routes/reports.js",
+      "language": "JavaScript",
+      "file_size": 3555,
+      "total_lines": 94,
+      "code_lines": 78,
+      "comment_lines": 2,
+      "blank_lines": 14,
+      "last_modified": "2025-05-31T17:28:27.274705",
+      "file_hash": "cec28cc9084747f41077ed3a8fbea883",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 80,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.29220288326300986,
+          "human_patterns": 1.0,
+          "base_confidence": 0.014610144163150493,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 78,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/services/eventService.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/services/eventService.js",
+      "language": "JavaScript",
+      "file_size": 8036,
+      "total_lines": 271,
+      "code_lines": 219,
+      "comment_lines": 10,
+      "blank_lines": 42,
+      "last_modified": "2025-05-31T17:26:38.006713",
+      "file_hash": "e48fe5070b50063522ef9f8efd1a41b8",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 229,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.4451427808127417,
+          "human_patterns": 1.0,
+          "base_confidence": 0.022257139040637086,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 219,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/middleware/errorHandler.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/middleware/errorHandler.js",
+      "language": "JavaScript",
+      "file_size": 831,
+      "total_lines": 35,
+      "code_lines": 28,
+      "comment_lines": 2,
+      "blank_lines": 5,
+      "last_modified": "2025-05-31T17:27:51.635708",
+      "file_hash": "8007af3458ea37ac362dd7c4b38f9d94",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 30,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 28,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/middleware/auth.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/middleware/auth.js",
+      "language": "JavaScript",
+      "file_size": 1472,
+      "total_lines": 52,
+      "code_lines": 39,
+      "comment_lines": 2,
+      "blank_lines": 11,
+      "last_modified": "2025-05-31T17:27:29.645709",
+      "file_hash": "8905fe6bc45620a0b310df62bb636668",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 41,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5952380952380952,
+          "human_patterns": 1.0,
+          "base_confidence": 0.029761904761904764,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 39,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/services/analyticsService.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/services/analyticsService.js",
+      "language": "JavaScript",
+      "file_size": 8590,
+      "total_lines": 238,
+      "code_lines": 216,
+      "comment_lines": 0,
+      "blank_lines": 22,
+      "last_modified": "2025-05-31T17:27:14.486710",
+      "file_hash": "35c51ff6c3dcda62d4b336314249f937",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 216,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.19671512904576605,
+          "human_patterns": 1.0,
+          "base_confidence": 0.009835756452288303,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 216,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/utils/logger.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/utils/logger.js",
+      "language": "JavaScript",
+      "file_size": 643,
+      "total_lines": 23,
+      "code_lines": 20,
+      "comment_lines": 0,
+      "blank_lines": 3,
+      "last_modified": "2025-05-31T17:27:45.936708",
+      "file_hash": "b39a95f5946a1941ea82e62e4fea82f4",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 20,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 20,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/config/database.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/config/database.js",
+      "language": "JavaScript",
+      "file_size": 282,
+      "total_lines": 11,
+      "code_lines": 9,
+      "comment_lines": 0,
+      "blank_lines": 2,
+      "last_modified": "2025-05-31T17:29:36.565700",
+      "file_hash": "aa29554fbdbb24707759c207a82fe1a5",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 9,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 1.0,
+          "base_confidence": 0.025,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 9,
+      "copilot_confidence": 0.0
+    },
+    "analytics-platform/src/database/migrate.js": {
+      "file_path": "/home/runner/workspace/analytics-platform/src/database/migrate.js",
+      "language": "JavaScript",
+      "file_size": 5104,
+      "total_lines": 166,
+      "code_lines": 134,
+      "comment_lines": 12,
+      "blank_lines": 20,
+      "last_modified": "2025-05-31T17:25:58.252716",
+      "file_hash": "a8bff3e457432870795bb9f0ad47354a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 146,
+        "risk_level": "MINIMAL",
+        "language": "javascript",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": false,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.5,
+          "human_patterns": 0.5421686746987951,
+          "base_confidence": 0.025,
+          "human_penalty_applied": 0
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 134,
+      "copilot_confidence": 0.0
+    },
+    "test_files/ai_style.py": {
+      "file_path": "/home/runner/workspace/test_files/ai_style.py",
+      "language": "Python",
+      "file_size": 1608,
+      "total_lines": 50,
+      "code_lines": 39,
+      "comment_lines": 0,
+      "blank_lines": 11,
+      "last_modified": "2025-06-04T04:29:35.745295",
+      "file_hash": "e5ddaa0c128a4f03b1adc62692e864be",
+      "copilot_analysis": {
+        "confidence_score": 0.198787037037037,
+        "estimated_lines": 7,
+        "total_analyzed_lines": 39,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.3333333333333333,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7962962962962963,
+          "human_patterns": 1.0,
+          "base_confidence": 0.30648148148148147,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (19.9%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 7,
+      "estimated_human_lines": 32,
+      "copilot_confidence": 0.198787037037037
+    },
+    "test_files/human_style.py": {
+      "file_path": "/home/runner/workspace/test_files/human_style.py",
+      "language": "Python",
+      "file_size": 818,
+      "total_lines": 34,
+      "code_lines": 25,
+      "comment_lines": 4,
+      "blank_lines": 5,
+      "last_modified": "2025-06-04T04:29:35.748295",
+      "file_hash": "5da3834255a0235f2cdbd2e4d8e9a931",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 29,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.09803921568627451,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8571428571428571,
+          "human_patterns": 1.0,
+          "base_confidence": 0.0722689075630252,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 25,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_detection_accuracy.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_detection_accuracy.py",
+      "language": "Python",
+      "file_size": 6354,
+      "total_lines": 209,
+      "code_lines": 156,
+      "comment_lines": 11,
+      "blank_lines": 42,
+      "last_modified": "2025-06-04T05:02:07.024279",
+      "file_hash": "320dbe5d7393c406c372d3f66983216a",
+      "copilot_analysis": {
+        "confidence_score": 0.15,
+        "estimated_lines": 25,
+        "total_analyzed_lines": 167,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.5,
+          "moderate_indicators": 0.3349282296650718,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8888888888888888,
+          "human_patterns": 1.0,
+          "base_confidence": 0.394922913343966,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.0%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 25,
+      "estimated_human_lines": 131,
+      "copilot_confidence": 0.15
+    },
+    "test_files/mixed_style.py": {
+      "file_path": "/home/runner/workspace/test_files/mixed_style.py",
+      "language": "Python",
+      "file_size": 1115,
+      "total_lines": 38,
+      "code_lines": 29,
+      "comment_lines": 1,
+      "blank_lines": 8,
+      "last_modified": "2025-06-04T04:29:35.749295",
+      "file_hash": "f559a4a474015372481babbb9b1f8224",
+      "copilot_analysis": {
+        "confidence_score": 0.0890453216374269,
+        "estimated_lines": 2,
+        "total_analyzed_lines": 30,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.3508771929824561,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8888888888888888,
+          "human_patterns": 1.0,
+          "base_confidence": 0.1497076023391813,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 2,
+      "estimated_human_lines": 27,
+      "copilot_confidence": 0.0890453216374269
+    },
+    "enhanced_release/main.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/main.py",
+      "language": "Python",
+      "file_size": 8474,
+      "total_lines": 237,
+      "code_lines": 187,
+      "comment_lines": 9,
+      "blank_lines": 41,
+      "last_modified": "2025-06-04T05:02:07.028279",
+      "file_hash": "894e19e3592b5b064319d48f4e885ba9",
+      "copilot_analysis": {
+        "confidence_score": 0.12160932105868813,
+        "estimated_lines": 23,
+        "total_analyzed_lines": 196,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.35161744022503516,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7272727272727272,
+          "human_patterns": 1.0,
+          "base_confidence": 0.22518220176448023,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (12.2%) of AI assistance",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 23,
+      "estimated_human_lines": 164,
+      "copilot_confidence": 0.12160932105868813
+    },
+    "enhanced_release/analyzer/metrics_calculator.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/metrics_calculator.py",
+      "language": "Python",
+      "file_size": 12614,
+      "total_lines": 300,
+      "code_lines": 234,
+      "comment_lines": 17,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T05:02:07.019279",
+      "file_hash": "d4e8a225077163b30b81f6c23af0f208",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 251,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.06666666666666667,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.91324200913242,
+          "human_patterns": 1.0,
+          "base_confidence": 0.065662100456621,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 234,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/analyzer/code_analyzer.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/code_analyzer.py",
+      "language": "Python",
+      "file_size": 9043,
+      "total_lines": 232,
+      "code_lines": 176,
+      "comment_lines": 16,
+      "blank_lines": 40,
+      "last_modified": "2025-06-04T05:02:07.023279",
+      "file_hash": "0025ccb04fcaa0a502df6bc996c9f2d0",
+      "copilot_analysis": {
+        "confidence_score": 0.1524270206166758,
+        "estimated_lines": 29,
+        "total_analyzed_lines": 192,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.16666666666666666,
+          "moderate_indicators": 0.15804597701149425,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8835978835978836,
+          "human_patterns": 1.0,
+          "base_confidence": 0.17492702061667578,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (15.2%) of AI assistance",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 29,
+      "estimated_human_lines": 147,
+      "copilot_confidence": 0.1524270206166758
+    },
+    "enhanced_release/analyzer/copilot_detector.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/copilot_detector.py",
+      "language": "Python",
+      "file_size": 12763,
+      "total_lines": 310,
+      "code_lines": 240,
+      "comment_lines": 21,
+      "blank_lines": 49,
+      "last_modified": "2025-06-04T05:02:07.022279",
+      "file_hash": "7fc60613dfabd90e75da0741f040e27a",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 261,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.01075268817204301,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.9115798180314308,
+          "human_patterns": 1.0,
+          "base_confidence": 0.04880479735318445,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 240,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/analyzer/enhanced_detector.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/analyzer/enhanced_detector.py",
+      "language": "Python",
+      "file_size": 21682,
+      "total_lines": 536,
+      "code_lines": 400,
+      "comment_lines": 39,
+      "blank_lines": 97,
+      "last_modified": "2025-06-04T05:02:07.023279",
+      "file_hash": "2fbb7ef0e01f3c0542a4ca5d52c72efa",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 439,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.0,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7170269893997453,
+          "human_patterns": 1.0,
+          "base_confidence": 0.03585134946998727,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 400,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_files/ai_style.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_files/ai_style.py",
+      "language": "Python",
+      "file_size": 1608,
+      "total_lines": 50,
+      "code_lines": 39,
+      "comment_lines": 0,
+      "blank_lines": 11,
+      "last_modified": "2025-06-04T05:02:07.025279",
+      "file_hash": "e5ddaa0c128a4f03b1adc62692e864be",
+      "copilot_analysis": {
+        "confidence_score": 0.198787037037037,
+        "estimated_lines": 7,
+        "total_analyzed_lines": 39,
+        "risk_level": "MEDIUM",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": true,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.3333333333333333,
+          "moderate_indicators": 0.3333333333333333,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.7962962962962963,
+          "human_patterns": 1.0,
+          "base_confidence": 0.30648148148148147,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Low confidence (19.9%) of AI assistance",
+          "Strong AI patterns detected (documentation style, perfect structure)",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 7,
+      "estimated_human_lines": 32,
+      "copilot_confidence": 0.198787037037037
+    },
+    "enhanced_release/test_files/human_style.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_files/human_style.py",
+      "language": "Python",
+      "file_size": 818,
+      "total_lines": 34,
+      "code_lines": 25,
+      "comment_lines": 4,
+      "blank_lines": 5,
+      "last_modified": "2025-06-04T05:02:07.025279",
+      "file_hash": "5da3834255a0235f2cdbd2e4d8e9a931",
+      "copilot_analysis": {
+        "confidence_score": 0.0,
+        "estimated_lines": 0,
+        "total_analyzed_lines": 29,
+        "risk_level": "MINIMAL",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": false,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.09803921568627451,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8571428571428571,
+          "human_patterns": 1.0,
+          "base_confidence": 0.0722689075630252,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 0,
+      "estimated_human_lines": 25,
+      "copilot_confidence": 0.0
+    },
+    "enhanced_release/test_files/mixed_style.py": {
+      "file_path": "/home/runner/workspace/enhanced_release/test_files/mixed_style.py",
+      "language": "Python",
+      "file_size": 1115,
+      "total_lines": 38,
+      "code_lines": 29,
+      "comment_lines": 1,
+      "blank_lines": 8,
+      "last_modified": "2025-06-04T05:02:07.026279",
+      "file_hash": "f559a4a474015372481babbb9b1f8224",
+      "copilot_analysis": {
+        "confidence_score": 0.0890453216374269,
+        "estimated_lines": 2,
+        "total_analyzed_lines": 30,
+        "risk_level": "LOW",
+        "language": "python",
+        "indicators": {
+          "strong_ai_patterns": false,
+          "moderate_ai_patterns": true,
+          "weak_ai_patterns": false,
+          "high_consistency": true,
+          "human_patterns_detected": true
+        },
+        "detailed_scores": {
+          "strong_indicators": 0.0,
+          "moderate_indicators": 0.3508771929824561,
+          "weak_indicators": 0.0,
+          "consistency_score": 0.8888888888888888,
+          "human_patterns": 1.0,
+          "base_confidence": 0.1497076023391813,
+          "human_penalty_applied": -0.022500000000000003
+        },
+        "analysis_explanation": [
+          "Appears to be primarily human-written",
+          "Moderate AI patterns detected (consistent naming, modern syntax)",
+          "Human coding patterns detected (informal style, shortcuts)"
+        ]
+      },
+      "estimated_copilot_lines": 2,
+      "estimated_human_lines": 27,
+      "copilot_confidence": 0.0890453216374269
+    }
+  },
+  "summary": {
+    "total_files": 58,
+    "total_lines": 11241,
+    "total_code_lines": 8704,
+    "copilot_lines": 698,
+    "human_lines": 8006,
+    "copilot_percentage": 8.02,
+    "human_percentage": 91.98,
+    "average_confidence": 0.075,
+    "high_confidence_files": 0,
+    "high_confidence_percentage": 0.0,
+    "file_size_stats": {
+      "min": 9,
+      "max": 588,
+      "mean": 150.06896551724137,
+      "median": 122.0
+    }
+  },
+  "language_breakdown": {
+    "Python": {
+      "files": 43,
+      "total_lines": 8968,
+      "code_lines": 6829,
+      "copilot_lines": 698,
+      "human_lines": 6131,
+      "copilot_percentage": 10.22,
+      "human_percentage": 89.78,
+      "average_confidence": 0.101
+    },
+    "JavaScript": {
+      "files": 15,
+      "total_lines": 2273,
+      "code_lines": 1875,
+      "copilot_lines": 0,
+      "human_lines": 1875,
+      "copilot_percentage": 0.0,
+      "human_percentage": 100.0,
+      "average_confidence": 0.0
+    }
+  },
+  "git_info": {
+    "current_branch": "main",
+    "last_commit": "7827e35e",
+    "last_commit_date": "2025-07-02T05:56:36+00:00",
+    "total_commits": 43
+  }
+}
