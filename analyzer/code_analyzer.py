@@ -16,6 +16,7 @@ from git import Repo, InvalidGitRepositoryError
 from utils.logger import setup_logger
 from .balanced_detector import BalancedCopilotDetector
 from .evasion_resistant_detector import EvasionResistantDetector
+from .optimized_conservative_detector import OptimizedConservativeDetector
 from .metrics_calculator import MetricsCalculator
 
 logger = setup_logger(__name__)
@@ -25,10 +26,13 @@ class CodeAnalyzer:
         self.config = config
         self.copilot_detector = BalancedCopilotDetector(config['analysis']['copilot_indicators'])
         self.evasion_detector = EvasionResistantDetector(config['analysis']['copilot_indicators'])
+        self.optimized_detector = OptimizedConservativeDetector(config['analysis']['copilot_indicators'])
         self.metrics_calculator = MetricsCalculator()
         self.supported_extensions = set(config['analysis']['supported_extensions'])
         self.ignore_patterns = config['analysis']['ignore_patterns']
         self.use_evasion_resistance = config['analysis'].get('evasion_resistance', True)
+        self.use_optimized_mode = config['analysis'].get('optimized_mode', True)
+        self.max_workers = config['analysis'].get('max_workers', 4)
     
     def analyze_repository(self, repo_path: str) -> Dict[str, Any]:
         """Analyze an entire repository for Copilot vs human-written code"""
@@ -65,22 +69,37 @@ class CodeAnalyzer:
         code_files = self._find_code_files(repo_path)
         logger.info(f"Found {len(code_files)} code files to analyze")
         
-        # Analyze files in parallel
-        with ThreadPoolExecutor(max_workers=4) as executor:
-            future_to_file = {
-                executor.submit(self._analyze_file, file_path): file_path 
-                for file_path in code_files
-            }
-            
-            for future in as_completed(future_to_file):
-                file_path = future_to_file[future]
-                try:
-                    file_result = future.result()
-                    if file_result:
-                        relative_path = str(file_path.relative_to(repo_path))
-                        results['files'][relative_path] = file_result
-                except Exception as e:
-                    logger.error(f"Error analyzing file {file_path}: {e}")
+        # Analyze files in optimized parallel batches
+        batch_size = self.config['analysis'].get('batch_size', 100)
+        total_batches = (len(code_files) + batch_size - 1) // batch_size
+        
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            for batch_num in range(total_batches):
+                start_idx = batch_num * batch_size
+                end_idx = min((batch_num + 1) * batch_size, len(code_files))
+                batch_files = code_files[start_idx:end_idx]
+                
+                if total_batches > 1:
+                    logger.info(f"Processing batch {batch_num + 1}/{total_batches} ({len(batch_files)} files)")
+                
+                future_to_file = {
+                    executor.submit(self._analyze_file, file_path): file_path 
+                    for file_path in batch_files
+                }
+                
+                for future in as_completed(future_to_file):
+                    file_path = future_to_file[future]
+                    try:
+                        file_result = future.result()
+                        if file_result:
+                            relative_path = str(file_path.relative_to(repo_path))
+                            results['files'][relative_path] = file_result
+                    except Exception as e:
+                        logger.error(f"Error analyzing file {file_path}: {e}")
+                
+                # Clear cache periodically for memory management
+                if hasattr(self.optimized_detector, 'clear_cache') and batch_num % 5 == 0:
+                    self.optimized_detector.clear_cache()
         
         # Calculate summary metrics
         results['summary'] = self.metrics_calculator.calculate_repository_summary(results['files'])
@@ -122,7 +141,10 @@ class CodeAnalyzer:
             file_stats = self._get_file_stats(file_path, content)
             
             # Detect Copilot patterns using appropriate detector
-            if self.use_evasion_resistance:
+            if self.use_optimized_mode:
+                # Use optimized detector for large file sets
+                copilot_analysis = self.optimized_detector.analyze_content(content, file_path.suffix)
+            elif self.use_evasion_resistance:
                 # Use evasion-resistant detector for enhanced detection
                 copilot_analysis = self.evasion_detector.analyze_content(content, file_path.suffix)
                 # Map to standard format for backward compatibility
