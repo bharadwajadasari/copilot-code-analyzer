@@ -25,10 +25,13 @@ class BalancedCopilotDetector:
         # Strong AI indicators - high confidence patterns
         self.strong_ai_patterns = {
             'explicit_markers': [
+                r'#\s*AI-generated',  # Your specific marker
+                r'#\s*Generated\s+by\s+(AI|Copilot|GitHub\s+Copilot)',
                 r'@generated\s*$',
                 r'#\s*@generated\s*$',
                 r'This\s+code\s+was\s+(generated|created)\s+by\s+(AI|Copilot|assistant)',
                 r'Auto-generated\s+by',
+                r'Code\s+Generated\s+by\s+Copilot',
             ],
             'ai_documentation_style': [
                 r'"""[\s\S]*?Args:[\s\S]*?Returns:[\s\S]*?"""',  # Perfect docstring format
