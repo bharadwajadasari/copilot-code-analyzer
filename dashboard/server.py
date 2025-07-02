@@ -46,6 +46,9 @@ class DashboardServer:
                             'name': os.path.basename(repo_path),
                             'last_analysis': latest.get('timestamp'),
                             'total_files': summary.get('total_files', 0),
+                            'total_lines': summary.get('total_lines', 0),
+                            'total_copilot_lines': summary.get('copilot_lines', 0),
+                            'total_human_lines': summary.get('human_lines', 0),
                             'copilot_percentage': summary.get('copilot_percentage', 0),
                             'human_percentage': summary.get('human_percentage', 0)
                         })
