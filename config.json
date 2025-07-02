@@ -2,6 +2,7 @@
   "analysis": {
     "supported_extensions": [".py", ".js", ".java", ".cpp", ".c", ".go", ".rs", ".ts", ".jsx", ".tsx"],
     "ignore_patterns": ["*.min.js", "node_modules/*", "__pycache__/*", ".git/*", "*.pyc", "dist/*", "build/*"],
+    "evasion_resistance": true,
     "copilot_indicators": {
       "comment_patterns": [
         "# Copilot suggestion",
