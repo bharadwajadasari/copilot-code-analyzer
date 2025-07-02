@@ -164,7 +164,7 @@ class Dashboard {
         if (this.data.repositories.length === 0) {
             tableBody.innerHTML = `
                 <tr>
-                    <td colspan="6" class="text-center py-4">
+                    <td colspan="7" class="text-center py-4">
                         <div class="empty-state">
                             <i data-feather="folder"></i>
                             <p>No repositories found</p>
@@ -198,6 +198,12 @@ class Dashboard {
                                  style="width: ${repo.copilot_percentage || 0}%"></div>
                         </div>
                         <span>${repo.copilot_percentage || 0}%</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <span class="badge bg-info me-2">${repo.total_copilot_lines || 0}</span>
+                        <small class="text-muted">/ ${repo.total_lines || 0}</small>
                     </div>
                 </td>
                 <td>
