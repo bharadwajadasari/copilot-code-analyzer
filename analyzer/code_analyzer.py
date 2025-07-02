@@ -15,6 +15,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from git import Repo, InvalidGitRepositoryError
 from utils.logger import setup_logger
 from .balanced_detector import BalancedCopilotDetector
+from .evasion_resistant_detector import EvasionResistantDetector
 from .metrics_calculator import MetricsCalculator
 
 logger = setup_logger(__name__)
@@ -23,9 +24,11 @@ class CodeAnalyzer:
     def __init__(self, config: Dict[str, Any]):
         self.config = config
         self.copilot_detector = BalancedCopilotDetector(config['analysis']['copilot_indicators'])
+        self.evasion_detector = EvasionResistantDetector(config['analysis']['copilot_indicators'])
         self.metrics_calculator = MetricsCalculator()
         self.supported_extensions = set(config['analysis']['supported_extensions'])
         self.ignore_patterns = config['analysis']['ignore_patterns']
+        self.use_evasion_resistance = config['analysis'].get('evasion_resistance', True)
     
     def analyze_repository(self, repo_path: str) -> Dict[str, Any]:
         """Analyze an entire repository for Copilot vs human-written code"""
@@ -118,8 +121,19 @@ class CodeAnalyzer:
             # Get file statistics
             file_stats = self._get_file_stats(file_path, content)
             
-            # Detect Copilot patterns
-            copilot_analysis = self.copilot_detector.analyze_content(content, file_path.suffix)
+            # Detect Copilot patterns using appropriate detector
+            if self.use_evasion_resistance:
+                # Use evasion-resistant detector for enhanced detection
+                copilot_analysis = self.evasion_detector.analyze_content(content, file_path.suffix)
+                # Map to standard format for backward compatibility
+                if 'copilot_confidence' in copilot_analysis:
+                    copilot_analysis['confidence_score'] = copilot_analysis['copilot_confidence']
+                    copilot_analysis['estimated_lines'] = int(
+                        file_stats['code_lines'] * copilot_analysis['confidence_score']
+                    )
+            else:
+                # Use standard balanced detector
+                copilot_analysis = self.copilot_detector.analyze_content(content, file_path.suffix)
             
             # Combine results
             result = {
@@ -133,9 +147,10 @@ class CodeAnalyzer:
                 'last_modified': file_stats['last_modified'],
                 'file_hash': file_stats['file_hash'],
                 'copilot_analysis': copilot_analysis,
-                'estimated_copilot_lines': copilot_analysis['estimated_lines'],
-                'estimated_human_lines': file_stats['code_lines'] - copilot_analysis['estimated_lines'],
-                'copilot_confidence': copilot_analysis['confidence_score']
+                'estimated_copilot_lines': copilot_analysis.get('estimated_lines', 0),
+                'estimated_human_lines': file_stats['code_lines'] - copilot_analysis.get('estimated_lines', 0),
+                'copilot_confidence': copilot_analysis.get('confidence_score', copilot_analysis.get('copilot_confidence', 0)),
+                'evasion_resistance': copilot_analysis.get('evasion_resistance', {})
             }
             
             return result
