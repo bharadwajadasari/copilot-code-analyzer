@@ -32,16 +32,25 @@ class BalancedCopilotDetector:
                 r'This\s+code\s+was\s+(generated|created)\s+by\s+(AI|Copilot|assistant)',
                 r'Auto-generated\s+by',
                 r'Code\s+Generated\s+by\s+Copilot',
+                r'Copilot\s+(Detection|Analysis|Code)',  # AI tool references
+                r'machine\s+learning\s+techniques',  # AI terminology
+                r'detection\s+(algorithms?|engine)',  # AI detection context
             ],
             'ai_documentation_style': [
                 r'"""[\s\S]*?Args:[\s\S]*?Returns:[\s\S]*?"""',  # Perfect docstring format
                 r'"""[\s\S]*?Parameters:[\s\S]*?Returns:[\s\S]*?"""',
                 r'"""[\s\S]*?Example:[\s\S]*?>>>[\s\S]*?"""',  # Docstring with examples
+                r'def\s+\w+\([^)]*\):\s*\n\s*"""[^"]*"""',  # Function with immediate docstring
+                r'class\s+\w+[^:]*:\s*\n\s*"""[^"]*"""',  # Class with immediate docstring
+                r'"""[\s\S]*?(Initialize|Analyze|Calculate|Process)[\s\S]*?"""',  # AI-style descriptions
             ],
             'ai_code_patterns': [
-                r'def\s+\w+\([^)]*\)\s*->\s*(Optional\[|Union\[|List\[)',  # Complex type hints
+                r'def\s+\w+\([^)]*\)\s*->\s*(Optional\[|Union\[|List\[|Dict\[)',  # Complex type hints
                 r'try:\s*\n[\s\S]*?\nexcept\s+\w*Exception\s+as\s+\w+:\s*\n\s*logger\.',  # Perfect exception handling
                 r'if\s+__name__\s*==\s*[\'"]__main__[\'"]:\s*\n\s*main\(\)',  # Perfect main guard
+                r'from\s+typing\s+import\s+.*Dict.*Any',  # Complex typing imports
+                r'def\s+_[a-z_]+\([^)]*\)\s*->\s*(float|int|str|bool):', # Private methods with type hints
+                r'self\.\w+\s*=\s*\w+\s*or\s*\{\}',  # Default dict initialization pattern
             ]
         }
         
@@ -260,19 +269,20 @@ class BalancedCopilotDetector:
         elif total_lines < 50:
             confidence *= 0.7
         
-        # For files without explicit AI markers, cap confidence at realistic levels
-        if confidence > 0.2 and total_lines > 30:
-            confidence = min(confidence * 0.6, 0.15)  # Cap at 15% for typical code
+        # For files without explicit AI markers, apply moderate scaling but don't over-restrict
+        if confidence > 0.25 and total_lines > 30:
+            # Scale down but allow higher confidence for strong patterns
+            confidence = min(confidence * 0.75, 0.40)  # Allow up to 40% for strong AI patterns
         
-        # Apply minimum threshold - anything below 8% is likely noise
-        if confidence < 0.08:
+        # Apply minimum threshold - anything below 5% is likely noise
+        if confidence < 0.05:
             confidence = 0.0
         
-        # Only allow high confidence with clear indicators
-        if confidence > 0.4:
-            confidence = 0.4 + (confidence - 0.4) * 0.3  # Compress high values
+        # Only allow very high confidence with clear indicators
+        if confidence > 0.6:
+            confidence = 0.6 + (confidence - 0.6) * 0.5  # Compress very high values
         
-        return min(max(confidence, 0.0), 0.85)  # Cap at 85%
+        return min(max(confidence, 0.0), 0.75)  # Cap at 75%
     
     def _calculate_balanced_risk(self, confidence: float, strong_score: float, moderate_score: float) -> str:
         """Calculate balanced risk assessment"""
