@@ -106,6 +106,14 @@ Real-time monitoring capabilities:
 
 ## Changelog
 
+- July 25, 2025: Added local database setup for dashboard activity page
+  - Created setup_database.py for simple SQLite database initialization with sample data
+  - Fixed empty activity page issue that occurred in local development environments
+  - Added LOCAL_DASHBOARD_SETUP.md with complete setup instructions and troubleshooting
+  - Database includes realistic confidence scores and activity events for testing
+  - Supports both local SQLite (development) and PostgreSQL (production) environments
+  - Activity API endpoint now returns proper data with confidence scores and risk levels
+
 - July 25, 2025: Fixed Balanced Detector classification issues
   - Resolved false negative problem where AI-generated code was classified as human-written
   - Enhanced pattern detection with AI tool references and documentation patterns
