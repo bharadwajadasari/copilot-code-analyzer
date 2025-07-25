@@ -106,6 +106,14 @@ Real-time monitoring capabilities:
 
 ## Changelog
 
+- July 25, 2025: Fixed Balanced Detector classification issues
+  - Resolved false negative problem where AI-generated code was classified as human-written
+  - Enhanced pattern detection with AI tool references and documentation patterns
+  - Improved threshold calibration: increased confidence cap from 15% to 40% for strong AI patterns
+  - AI-generated files now correctly show 38.9% confidence (HIGH risk) vs previous 15% (MEDIUM risk)
+  - Added comprehensive debug tooling to identify and resolve detection accuracy issues
+  - System now properly detects AI-generated code while maintaining conservative approach
+
 - July 02, 2025: Enhanced system with evasion-resistant AI detection for formatted code
   - Created multi-layer evasion-resistant detector to handle code processed through formatters
   - Added Java-specific evasion detection with 84.1% resilience against Google Java Format/Spotless
